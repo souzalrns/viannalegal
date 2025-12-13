@@ -59,8 +59,8 @@ const steps = [
   {
     number: 8,
     icon: FolderOpen,
-    title: 'Montagem da Pasta',
-    description: 'Montamos a pasta com todos os documentos necessários e recolhemos as taxas exigidas.',
+    title: 'Montagem do Processo',
+    description: 'Montamos o processo com todos os documentos necessários e recolhemos as taxas exigidas.',
   },
   {
     number: 9,

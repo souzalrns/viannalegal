@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-lisbon.jpg';
 
 const benefits = [
@@ -81,11 +82,17 @@ export function Hero() {
               transition={{ delay: 0.7 }}
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
-              <Button variant="gold" size="xl">
-                Quero minha Cidadania
-                <ArrowRight className="w-5 h-5" />
+              <Button variant="gold" size="xl" asChild>
+                <Link to="/cidadania-portuguesa">
+                  Quero minha Cidadania
+                  <ArrowRight className="w-5 h-5" />
+                </Link>
               </Button>
-              <Button variant="heroOutline" size="xl">
+              <Button 
+                variant="heroOutline" 
+                size="xl"
+                onClick={() => window.open('https://wa.me/351913134260', '_blank')}
+              >
                 Fale com um Especialista
                 <ArrowRight className="w-5 h-5" />
               </Button>

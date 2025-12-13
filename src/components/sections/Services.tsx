@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, FileText, Search, Users, Heart, Building, Scale } from 'lucide-react';
+import { ArrowRight, FileText, Search, Users, Heart, Building } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -9,6 +10,7 @@ const services = [
     icon: Users,
     duration: '40-48 meses',
     color: 'portugal',
+    link: '/cidadania-portuguesa#netos',
   },
   {
     title: 'Cidadania Portuguesa - Filhos Maiores',
@@ -16,6 +18,7 @@ const services = [
     icon: Heart,
     duration: '12-14 meses',
     color: 'portugal',
+    link: '/cidadania-portuguesa#filhos-maiores',
   },
   {
     title: 'Cidadania Portuguesa - Filhos Menores',
@@ -23,6 +26,7 @@ const services = [
     icon: Heart,
     duration: '6-8 meses',
     color: 'portugal',
+    link: '/cidadania-portuguesa#filhos-menores',
   },
   {
     title: 'Cidadania Portuguesa - Cônjuges',
@@ -30,6 +34,7 @@ const services = [
     icon: Heart,
     duration: '40-48 meses',
     color: 'portugal',
+    link: '/cidadania-portuguesa#conjuges',
   },
   {
     title: 'Nacionalidade por Residência',
@@ -37,6 +42,7 @@ const services = [
     icon: Building,
     duration: '24-32 meses',
     color: 'portugal',
+    link: '/cidadania-portuguesa#residencia',
   },
   {
     title: 'Transcrição de Casamento',
@@ -44,13 +50,15 @@ const services = [
     icon: FileText,
     duration: '1-4 meses',
     color: 'gold',
+    link: '/cidadania-portuguesa#transcricao',
   },
   {
-    title: 'Pesquisa Genealógica',
+    title: 'Pesquisa Genealógica / Busca de Documentos',
     description: 'Investigação minuciosa para localizar registros ancestrais.',
     icon: Search,
     duration: 'Variável',
     color: 'gold',
+    link: '/busca-documentos',
   },
 ];
 
@@ -135,10 +143,13 @@ export function Services() {
                   <span className="text-xs text-muted-foreground">
                     Prazo médio: <strong className="text-foreground">{service.duration}</strong>
                   </span>
-                  <button className="text-gold hover:text-gold-dark transition-colors flex items-center gap-1 text-sm font-medium">
+                  <Link 
+                    to={service.link}
+                    className="text-gold hover:text-gold-dark transition-colors flex items-center gap-1 text-sm font-medium"
+                  >
                     Saiba mais
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </button>
+                  </Link>
                 </div>
               </motion.div>
             );
@@ -152,9 +163,11 @@ export function Services() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <Button variant="gold" size="lg">
-            Ver todos os serviços
-            <ArrowRight className="w-5 h-5" />
+          <Button variant="gold" size="lg" asChild>
+            <Link to="/cidadania-portuguesa">
+              Ver todos os serviços
+              <ArrowRight className="w-5 h-5" />
+            </Link>
           </Button>
         </motion.div>
       </div>
