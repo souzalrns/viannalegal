@@ -9,20 +9,14 @@ import { useToast } from '@/hooks/use-toast';
 const contactInfo = [
   {
     icon: Phone,
-    label: 'Telefone',
-    value: '+55 (11) 99999-9999',
-    href: 'tel:+5511999999999',
-  },
-  {
-    icon: Mail,
-    label: 'E-mail',
-    value: 'contato@cidadaolegal.com.br',
-    href: 'mailto:contato@cidadaolegal.com.br',
+    label: 'WhatsApp',
+    value: '+351 913 134 260',
+    href: 'https://wa.me/351913134260',
   },
   {
     icon: MapPin,
-    label: 'Endereço',
-    value: 'São Paulo, SP - Brasil',
+    label: 'Localização',
+    value: 'Lisboa, Portugal',
     href: '#',
   },
   {
@@ -121,7 +115,7 @@ export function Contact() {
                   Mensagem
                 </label>
                 <Textarea
-                  placeholder="Conte-nos sobre sua descendência portuguesa ou italiana..."
+                  placeholder="Conte-nos sobre sua descendência portuguesa..."
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required
@@ -180,7 +174,7 @@ export function Contact() {
                 variant="gold" 
                 size="lg" 
                 className="w-full"
-                onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
+                onClick={() => window.open('https://wa.me/351913134260', '_blank')}
               >
                 <MessageCircle className="w-5 h-5" />
                 Conversar no WhatsApp

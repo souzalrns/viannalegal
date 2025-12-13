@@ -6,14 +6,7 @@ import { cn } from '@/lib/utils';
 
 const navItems = [
   { label: 'Quem Somos', href: '#quem-somos' },
-  { 
-    label: 'Cidadania', 
-    href: '#cidadania',
-    children: [
-      { label: 'Cidadania Portuguesa', href: '#portuguesa' },
-      { label: 'Cidadania Italiana', href: '#italiana' },
-    ]
-  },
+  { label: 'Cidadania Portuguesa', href: '#servicos' },
   { label: 'Serviços', href: '#servicos' },
   { label: 'Processo', href: '#processo' },
   { label: 'Contato', href: '#contato' },
@@ -48,7 +41,7 @@ export function Header() {
               "font-display text-2xl font-bold transition-colors duration-300",
               isScrolled ? "text-primary" : "text-primary-foreground"
             )}>
-              Cidadão<span className="text-gold">Legal</span>
+              Vianna<span className="text-gold">Legal</span>
             </div>
           </a>
 

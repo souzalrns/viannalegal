@@ -13,13 +13,13 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Cidadão Legal | Assessoria em Cidadania Portuguesa e Italiana</title>
+        <title>ViannaLegal | Assessoria em Cidadania Portuguesa</title>
         <meta 
           name="description" 
-          content="Assessoria especializada em cidadania portuguesa e italiana. Tire sua dupla cidadania sem sair do Brasil. Mais de 2000 processos realizados com sucesso." 
+          content="Assessoria especializada em cidadania portuguesa. Tire sua dupla cidadania sem sair do Brasil. Acompanhamento completo em todas as etapas." 
         />
-        <meta name="keywords" content="cidadania portuguesa, cidadania italiana, dupla cidadania, passaporte europeu, assessoria cidadania" />
-        <link rel="canonical" href="https://cidadaolegal.com.br" />
+        <meta name="keywords" content="cidadania portuguesa, dupla cidadania, passaporte europeu, assessoria cidadania, nacionalidade portuguesa" />
+        <link rel="canonical" href="https://viannalegal.com.br" />
       </Helmet>
       
       <div className="min-h-screen bg-background">

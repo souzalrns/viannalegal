@@ -5,7 +5,7 @@ import heroImage from '@/assets/hero-lisbon.jpg';
 
 const benefits = [
   'Processo 100% online',
-  'Especialistas em Portugal e Itália',
+  'Especialistas em Portugal',
   'Acompanhamento personalizado',
 ];
 
@@ -55,7 +55,7 @@ export function Hero() {
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-xl mx-auto lg:mx-0">
               Assistência e segurança em todas as etapas para você obter a sua 
-              Cidadania Italiana ou Portuguesa
+              Cidadania Portuguesa
             </p>
 
             {/* Benefits */}
@@ -82,11 +82,11 @@ export function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <Button variant="gold" size="xl">
-                Cidadania Portuguesa
+                Quero minha Cidadania
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <Button variant="heroOutline" size="xl">
-                Cidadania Italiana
+                Fale com um Especialista
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </motion.div>

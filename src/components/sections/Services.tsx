@@ -7,12 +7,19 @@ const services = [
     title: 'Cidadania Portuguesa - Netos',
     description: 'Para descendentes de avós portugueses com vínculo comprovado.',
     icon: Users,
-    duration: '24-29 meses',
+    duration: '40-48 meses',
     color: 'portugal',
   },
   {
-    title: 'Cidadania Portuguesa - Filhos',
-    description: 'Processo simplificado para filhos de cidadãos portugueses.',
+    title: 'Cidadania Portuguesa - Filhos Maiores',
+    description: 'Processo para filhos maiores de idade de cidadãos portugueses.',
+    icon: Heart,
+    duration: '12-14 meses',
+    color: 'portugal',
+  },
+  {
+    title: 'Cidadania Portuguesa - Filhos Menores',
+    description: 'Processo simplificado para filhos menores de cidadãos portugueses.',
     icon: Heart,
     duration: '6-8 meses',
     color: 'portugal',
@@ -21,7 +28,14 @@ const services = [
     title: 'Cidadania Portuguesa - Cônjuges',
     description: 'Para cônjuges ou companheiros de cidadãos portugueses.',
     icon: Heart,
-    duration: '24-29 meses',
+    duration: '40-48 meses',
+    color: 'portugal',
+  },
+  {
+    title: 'Nacionalidade por Residência',
+    description: 'Para quem reside legalmente em Portugal há tempo suficiente.',
+    icon: Building,
+    duration: '24-32 meses',
     color: 'portugal',
   },
   {
@@ -37,13 +51,6 @@ const services = [
     icon: Search,
     duration: 'Variável',
     color: 'gold',
-  },
-  {
-    title: 'Cidadania Italiana',
-    description: 'Assessoria completa para descendentes de italianos.',
-    icon: Building,
-    duration: 'Variável',
-    color: 'italy',
   },
 ];
 

@@ -79,17 +79,17 @@ export function About() {
             </span>
             
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Somos <span className="text-primary">Cidadão Legal</span>, sua escolha confiável em assessoria
+              Somos <span className="text-primary">ViannaLegal</span>, sua escolha confiável em assessoria
             </h2>
             
             <p className="text-muted-foreground text-lg mb-6">
               Com uma vasta experiência e um histórico de sucesso comprovado, nossa equipe 
               de especialistas está aqui para tornar o processo de obtenção da cidadania 
-              portuguesa e italiana simples, eficiente e livre de preocupações.
+              portuguesa simples, eficiente e livre de preocupações.
             </p>
             
             <p className="text-muted-foreground mb-8">
-              Na Cidadão Legal, entendemos que este é um passo importante em sua vida e 
+              Na ViannaLegal, entendemos que este é um passo importante em sua vida e 
               estamos aqui para tornar o processo o mais simples e tranquilo possível. 
               Entre em contato conosco hoje mesmo e dê o primeiro passo rumo a uma vida 
               europeia de sucesso e oportunidades ilimitadas.
