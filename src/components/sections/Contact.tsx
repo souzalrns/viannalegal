@@ -38,9 +38,15 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Redirect to WhatsApp with form data
+    const message = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
+    const whatsappUrl = `https://wa.me/351913134260?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+    
     toast({
-      title: "Mensagem enviada!",
-      description: "Entraremos em contato em breve.",
+      title: "Redirecionando para WhatsApp",
+      description: "Você será direcionado para conversar com um especialista.",
     });
     setFormData({ name: '', email: '', phone: '', message: '' });
   };

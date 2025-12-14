@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
+import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { 
   ArrowRight, 
   Users, 
@@ -13,7 +14,6 @@ import {
   CheckCircle,
   MessageCircle
 } from 'lucide-react';
-
 const services = [
   {
     id: 'filhos-maiores',
@@ -105,6 +105,8 @@ const services = [
 ];
 
 export default function CidadaniaPortuguesa() {
+  useScrollToHash();
+  
   return (
     <>
       <Helmet>

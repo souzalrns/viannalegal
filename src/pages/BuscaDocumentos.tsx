@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
+import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { 
   ArrowRight, 
   Search, 
@@ -15,6 +16,8 @@ import {
 } from 'lucide-react';
 
 export default function BuscaDocumentos() {
+  useScrollToHash();
+  
   return (
     <>
       <Helmet>

@@ -8,8 +8,10 @@ import { FAQ } from '@/components/sections/FAQ';
 import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/sections/Footer';
 import { Helmet } from 'react-helmet-async';
+import { useScrollToHash } from '@/hooks/useScrollToHash';
 
 const Index = () => {
+  useScrollToHash();
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LegalService",
