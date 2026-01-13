@@ -8,7 +8,6 @@ import { Testimonials } from '@/components/sections/Testimonials';
 import { FAQ } from '@/components/sections/FAQ';
 import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/sections/Footer';
-import { UrgencyBanner } from '@/components/ui/UrgencyBanner';
 import { Helmet } from 'react-helmet-async';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
 
@@ -277,7 +276,6 @@ const Index = () => {
       </Helmet>
       
       <div className="min-h-screen bg-background">
-        <UrgencyBanner />
         <Header />
         <main>
           <Hero />
