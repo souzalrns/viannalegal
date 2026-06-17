@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
+import { Phone, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -38,15 +38,14 @@ export function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // Redirect to WhatsApp with form data
+
     const message = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
     const whatsappUrl = `https://wa.me/351913134260?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
-    
+
     toast({
-      title: "Redirecionando para WhatsApp",
-      description: "Você será direcionado para conversar com um especialista.",
+      title: 'Redirecionando para WhatsApp',
+      description: 'Você será direcionado para conversar com um especialista.',
     });
     setFormData({ name: '', email: '', phone: '', message: '' });
   };
@@ -64,12 +63,13 @@ export function Contact() {
             <span className="text-gold font-medium text-sm uppercase tracking-wider mb-4 block">
               Entre em Contato
             </span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Fale com nossos <span className="text-primary">Especialistas</span>
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Sua cidadania começa com uma{' '}
+              <span className="text-primary">conversa de 15 minutos</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Preencha o formulário e nossa equipe entrará em contato para 
-              esclarecer suas dúvidas e iniciar sua jornada rumo à cidadania europeia.
+              Preencha o formulário ou fale direto no WhatsApp. Um especialista analisa seu
+              caso e te diz exatamente qual é o caminho mais rápido — sem custo nessa etapa.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-5">
@@ -101,11 +101,9 @@ export function Contact() {
                   />
                 </div>
               </div>
-              
+
               <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">
-                  E-mail
-                </label>
+                <label className="text-sm font-medium text-foreground mb-2 block">E-mail</label>
                 <Input
                   type="email"
                   placeholder="seu@email.com"
@@ -115,11 +113,9 @@ export function Contact() {
                   className="h-12"
                 />
               </div>
-              
+
               <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">
-                  Mensagem
-                </label>
+                <label className="text-sm font-medium text-foreground mb-2 block">Mensagem</label>
                 <Textarea
                   placeholder="Conte-nos sobre sua descendência portuguesa..."
                   value={formData.message}
@@ -128,9 +124,9 @@ export function Contact() {
                   rows={5}
                 />
               </div>
-              
+
               <Button type="submit" variant="gold" size="lg" className="w-full sm:w-auto">
-                Enviar Mensagem
+                Quero minha análise gratuita
                 <Send className="w-5 h-5" />
               </Button>
             </form>
@@ -143,24 +139,18 @@ export function Contact() {
             viewport={{ once: true }}
             className="lg:pl-8"
           >
-            <div className="bg-primary rounded-3xl p-8 lg:p-10 text-primary-foreground h-full">
-              <h3 className="font-display text-2xl font-bold mb-6">
-                Informações de Contato
-              </h3>
+            <div className="bg-primary rounded-3xl p-8 lg:p-10 text-primary-foreground h-full flex flex-col">
+              <h3 className="font-display text-2xl font-bold mb-6">Prefere falar agora?</h3>
               <p className="text-primary-foreground/80 mb-8">
-                Estamos prontos para ajudá-lo a realizar o sonho da cidadania europeia. 
-                Entre em contato por qualquer um dos canais abaixo.
+                O WhatsApp é o canal mais rápido. A maioria das análises iniciais é respondida
+                em poucas horas, em horário comercial.
               </p>
 
               <div className="space-y-6 mb-10">
                 {contactInfo.map((info) => {
                   const Icon = info.icon;
                   return (
-                    <a
-                      key={info.label}
-                      href={info.href}
-                      className="flex items-start gap-4 group"
-                    >
+                    <a key={info.label} href={info.href} className="flex items-start gap-4 group">
                       <div className="w-12 h-12 rounded-xl bg-primary-foreground/10 flex items-center justify-center shrink-0 group-hover:bg-gold/20 transition-colors">
                         <Icon className="w-5 h-5 text-gold" />
                       </div>
@@ -175,16 +165,17 @@ export function Contact() {
                 })}
               </div>
 
-              {/* WhatsApp CTA */}
-              <Button 
-                variant="gold" 
-                size="lg" 
-                className="w-full"
-                onClick={() => window.open('https://wa.me/351913134260', '_blank')}
-              >
-                <MessageCircle className="w-5 h-5" />
-                Conversar no WhatsApp
-              </Button>
+              <div className="mt-auto">
+                <Button
+                  variant="gold"
+                  size="lg"
+                  className="w-full"
+                  onClick={() => window.open('https://wa.me/351913134260', '_blank')}
+                >
+                  <MessageCircle className="w-5 h-5" />
+                  Conversar no WhatsApp agora
+                </Button>
+              </div>
             </div>
           </motion.div>
         </div>

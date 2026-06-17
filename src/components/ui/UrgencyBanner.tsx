@@ -17,16 +17,18 @@ export function UrgencyBanner() {
       <div className="container-width flex items-center justify-center gap-3 text-center">
         <AlertCircle className="w-5 h-5 shrink-0" />
         <p className="text-sm md:text-base font-medium">
-          <span className="font-bold">ATUALIZAÇÃO DEZ/2025:</span>{' '}
+          <span className="font-bold">ATUALIZAÇÃO 2026:</span>{' '}
           <span className="hidden sm:inline">
-            Tribunal Constitucional veta endurecimento da Lei da Nacionalidade! Residência mantida em 5 anos.{' '}
+            Lei Orgânica 1/2026 em vigor: residência sobe para 7 anos e bisnetos já podem pedir nacionalidade direto.{' '}
           </span>
-          <span className="sm:hidden">TC veta endurecimento da Lei! </span>
-          <a 
-            href="#contato" 
+          <span className="sm:hidden">Lei 2026: novidades para bisnetos e residência. </span>
+          <a
+            href="https://wa.me/351913134260?text=Olá! Vi a atualização sobre a Lei Orgânica 1/2026 e quero saber meu prazo."
+            target="_blank"
+            rel="noopener noreferrer"
             className="underline hover:no-underline font-semibold"
           >
-            Agende análise gratuita →
+            Descubra seu prazo agora →
           </a>
         </p>
         <button
