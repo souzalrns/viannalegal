@@ -2932,10 +2932,162 @@ A ViannaLegal acompanha dezenas de processos de netos anualmente e conhece os ca
 **Neto de português? Sua cidadania europeia está esperando.** Agende uma análise gratuita com a ViannaLegal. Nossa equipe avaliará seu caso e indicará o melhor caminho para sua aprovação.
     `,
   },
+  {
+    id: 11,
+    slug: 'como-acompanhar-processo-cidadania-portuguesa',
+    title: 'Como Acompanhar o Processo de Cidadania Portuguesa: Guia do Portal MJ.pt',
+    excerpt: 'Aprenda a consultar seu processo de nacionalidade portuguesa no portal MJ.pt. Entenda as 7 bolinhas de status, a senha de acesso e o que fazer em cada etapa.',
+    date: '23 Jun 2026',
+    readTime: '10 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Search,
+    featured: false,
+    metaDescription: 'Guia completo para acompanhar processo de cidadania portuguesa no MJ.pt. Consulta de Nacionalidade, 7 bolinhas de status, senha de acesso e prazos.',
+    content: `**Atualizado em 23 de junho de 2026**
+
+> ⚠️ **Aviso jurídico:** Este conteúdo tem caráter meramente informativo. As interfaces do MJ.pt podem ser alteradas. Recomendamos análise personalizada do seu caso por advogado inscrito na Ordem dos Advogados.
+
+Depois de dar entrada no processo de nacionalidade portuguesa, acompanhar o status é essencial. O portal **MJ.pt** (Ministério da Justiça de Portugal) oferece a ferramenta **Consulta de Nacionalidade**, que permite ver em qual etapa seu pedido está — desde a entrada na conservatória até a decisão final.
+
+Este guia explica passo a passo como usar o portal, interpretar as famosas "bolinhas" de status e resolver problemas comuns de acesso, como a senha de acesso.
+
+## O que é o portal MJ.pt?
+
+O MJ.pt é o portal do Ministério da Justiça português que centraliza serviços relacionados a registos, nacionalidade e cidadania. A funcionalidade de **Consulta de Nacionalidade** permite que requerentes — ou seus representantes legais — monitorem o andamento do pedido de atribuição ou aquisição da nacionalidade portuguesa.
+
+O endereço correto é **irn.mj.pt** (Instituto dos Registos e Notariado).
+
+A área de consulta online substitui, em grande parte, a necessidade de contactar diretamente a conservatória para saber se houve movimentação.
+
+## Passo a passo para consultar seu processo
+
+**1. Acesse a página de consulta**
+Entre em irn.mj.pt e procure o serviço "Consulta de Nacionalidade" ou "Acompanhamento de Processos de Nacionalidade". A área de autenticação exige o número do processo e a senha de acesso.
+
+**2. Localize o número do seu processo**
+Quando o pedido é distribuído, o sistema gera um número de processo. Se você tem procurador, esse número consta no documento de distribuição. Guarde-o com segurança.
+
+**3. Use a senha de acesso (senha MJ)**
+A senha de acesso é gerada no momento da entrada do pedido ou enviada por email/SMS. Ela é pessoal e intransferível. Sem ela, você não consegue consultar o processo online.
+
+**4. Visualize o status**
+Após o login, o sistema exibe uma linha do tempo com etapas marcadas por círculos coloridos — as "bolinhas".
+
+## O que significam as 7 bolinhas de status?
+
+O portal utiliza uma sequência de status visuais. As cores e nomes podem variar conforme atualizações do sistema, mas a lógica geral é esta:
+
+| Cor/Status | Significado |
+| --- | --- |
+| Cinza ou branco | Pedido recebido, ainda não entrou em análise |
+| Verde claro | Em tramitação / em análise inicial |
+| Amarelo ou laranja | Aguarda documentação / em diligência |
+| Azul | Em subsidiacão / aguarda parecer técnico |
+| Roxo | Aguarda despacho / decisão pendente |
+| Verde escuro | Aprovado / concluído com decisão favorável |
+| Vermelho ou cinza escuro | Indeferido / arquivado |
+
+Importante: uma mudança de cor pode levar semanas ou meses. A ausência de movimentação não significa necessariamente problema — pode ser apenas fila de análise.
+
+## Como obter ou recuperar a senha de acesso
+
+A senha de acesso é um dos maiores pontos de dúvida. Veja como funciona:
+
+**Recebimento da senha**
+- Se você deu entrada pessoalmente: a senha é fornecida no momento do protocolo.
+- Se um advogado deu entrada: a senha pode ser enviada ao email do requerente ou entregue pelo representante.
+- Em alguns casos, a senha chega por SMS para o número de contacto indicado no pedido.
+
+**Esqueceu a senha?**
+Na página de login, clique em "Recuperar senha" ou "Esqueci-me da senha". O sistema pedirá:
+- Número do processo
+- Email associado ao pedido
+- Código de validação (CAPTCHA)
+
+Após validação, uma nova senha é enviada por email. Se o email não for reconhecido, pode ser necessário atualizar os contactos junto ao IRN — nesse caso, o acompanhamento é feito pelo representante legal.
+
+## O que fazer em cada etapa
+
+**Pedido recebido / aguarda tramitação**
+Nenhuma ação necessária. O processo está na fila para ser atribuído a um analista.
+
+**Em análise**
+Aguarde. Evite contactar a conservatória repetidamente, pois isso pode atrasar a análise.
+
+**Em diligência**
+Atenção máxima. O IRN pediu documentos ou esclarecimentos. Prazos geralmente são de 30 a 60 dias. Responda dentro do prazo com documentação completa.
+
+**Em subsidiacão / aguarda parecer**
+O processo aguarda parecer de outros serviços. Prazo variável.
+
+**Aguarda despacho**
+O processo está pronto para decisão do conservador. Etapa geralmente curta.
+
+**Aprovado / concluído**
+Parabéns. O próximo passo é solicitar a certidão de nacionalidade e, em seguida, o Cartão de Cidadão e passaporte.
+
+**Indeferido / arquivado**
+Não desista. É possível recorrer ou reabrir o processo com documentação complementar. Consulte um advogado especializado.
+
+## Problemas comuns e soluções
+
+**"Processo não encontrado"**
+Verifique se digitou corretamente o número completo, incluindo barras e dígitos. Processos muito recentes podem demorar alguns dias para aparecer no portal.
+
+**"Senha inválida"**
+Verifique se o Caps Lock está ativado. A senha é sensível a maiúsculas/minúsculas. Se o erro persistir, recupere a senha.
+
+**Não recebi a senha**
+Entre em contacto com quem deu entrada no processo. Se foi um advogado, ele pode consultar internamente.
+
+**Status parado há meses**
+Normal em processos de netos e casamento. O IRN trabalha com backlog. Só entre em contacto se houver diligência pendente ou se o prazo estimado já foi amplamente ultrapassado.
+
+## FAQ
+
+**Qual o endereço correto do MJ.pt para consulta?**
+A consulta é feita através do site do IRN: irn.mj.pt. Cuidado com sites não oficiais.
+
+**Posso acompanhar pelo celular?**
+Sim. O portal é responsivo e pode ser acessado por navegador móvel.
+
+**A consulta pelo portal substitui o advogado?**
+Não. O portal informa o status, mas não substitui análise jurídica, especialmente em diligências e recursos.
+
+**Quanto tempo leva para o status mudar?**
+Depende da etapa e do tipo de processo. Filhos menores: meses. Netos e casamento: pode levar mais de um ano entre movimentações.
+
+**E se o processo estiver em diligência e eu não souber o que enviar?**
+Consulte imediatamente um advogado. Diligências respondidas incorretamente são uma das principais causas de indeferimento.
+
+## Conclusão
+
+Acompanhar o processo de cidadania portuguesa no MJ.pt é simples quando você entende as bolinhas de status e tem a senha de acesso em mãos. A paciência é fundamental: o IRN analisa milhares de pedidos, e a ausência de movimentação por meses é comum.
+
+Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer ter certeza de que tudo está correto, a ViannaLegal pode ajudar. Nossa equipe acompanha processos de cidadania portuguesa e orienta requerentes em cada etapa.
+
+---
+
+**Precisa de ajuda para acompanhar ou regularizar seu processo?** Fale conosco pelo WhatsApp. Análise inicial gratuita.
+    `,
+  },
 ];
 
 export default function Blog() {
   useScrollToHash();
+
+  const parseDate = (dateStr: string) => {
+    const monthMap: Record<string, string> = {
+      'Jan': '01', 'Fev': '02', 'Mar': '03', 'Abr': '04', 'Mai': '05', 'Jun': '06',
+      'Jul': '07', 'Ago': '08', 'Set': '09', 'Out': '10', 'Nov': '11', 'Dez': '12'
+    };
+    const parts = dateStr.split(' ');
+    const day = parts[0]?.padStart(2, '0') || '01';
+    const month = monthMap[parts[1] || ''] || '01';
+    const year = parts[2] || '2024';
+    return `${year}-${month}-${day}`;
+  };
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -2959,7 +3111,7 @@ export default function Blog() {
         "@type": "Person",
         "name": post.author
       },
-      "datePublished": "2024-12-" + post.date.split(' ')[0],
+      "datePublished": parseDate(post.date),
       "url": `https://viannalegal.com.br/blog/${post.slug}`,
       "publisher": {
         "@type": "Organization",

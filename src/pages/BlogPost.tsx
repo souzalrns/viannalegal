@@ -20,6 +20,18 @@ export default function BlogPost() {
   const prevPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : null;
   const nextPost = currentIndex < blogPosts.length - 1 ? blogPosts[currentIndex + 1] : null;
 
+  const parseDate = (dateStr: string) => {
+    const monthMap: Record<string, string> = {
+      'Jan': '01', 'Fev': '02', 'Mar': '03', 'Abr': '04', 'Mai': '05', 'Jun': '06',
+      'Jul': '07', 'Ago': '08', 'Set': '09', 'Out': '10', 'Nov': '11', 'Dez': '12'
+    };
+    const parts = dateStr.split(' ');
+    const day = parts[0]?.padStart(2, '0') || '01';
+    const month = monthMap[parts[1] || ''] || '01';
+    const year = parts[2] || '2024';
+    return `${year}-${month}-${day}`;
+  };
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -38,8 +50,8 @@ export default function BlogPost() {
         "url": "https://viannalegal.com.br/logo.png"
       }
     },
-    "datePublished": `2024-12-${post.date.split(' ')[0]}`,
-    "dateModified": `2024-12-${post.date.split(' ')[0]}`,
+    "datePublished": parseDate(post.date),
+    "dateModified": parseDate(post.date),
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": `https://viannalegal.com.br/blog/${post.slug}`
@@ -152,7 +164,7 @@ export default function BlogPost() {
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.metaDescription || post.excerpt} />
         <meta property="og:url" content={`https://viannalegal.com.br/blog/${post.slug}`} />
-        <meta property="article:published_time" content={`2024-12-${post.date.split(' ')[0]}`} />
+        <meta property="article:published_time" content={parseDate(post.date)} />
         <meta property="article:author" content={post.author} />
         
         <meta name="twitter:card" content="summary_large_image" />
