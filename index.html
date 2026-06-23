@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Preload fonte display (LCP) -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap" as="style" />
-    <link rel="preload" as="image" href="/src/assets/hero-lisbon.jpg" />
-    <!-- Preconnect para fontes -->
+    <!-- Preconnect para fontes (antes do preload) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fontes optimizadas: subset=latin, display=swap, pesos mínimos -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,500&family=Inter:wght@400;500;600&subset=latin&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Preload da hero image (LCP crítico) -->
+    <link rel="preload" as="image" href="/assets/images/hero-lisbon.webp" type="image/webp" />
 
     <!-- Title: máx 60 caracteres -->
     <title>ViannaLegal — Cidadania Portuguesa para Brasileiros</title>

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { Shield, Clock, Award, Users, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import consultantImage from '@/assets/consultant.jpg';
+import consultantImageWebp from '@/assets/consultant.webp';
 
 const features = [
   {
@@ -40,11 +41,17 @@ export function About() {
             className="relative"
           >
             <div className="relative rounded-3xl overflow-hidden shadow-elevated">
-              <img
-                src={consultantImage}
-                alt="Consultora especializada em cidadania portuguesa"
-                className="w-full h-[500px] object-cover"
-              />
+              <picture>
+                <source srcSet={consultantImageWebp} type="image/webp" />
+                <img
+                  src={consultantImage}
+                  alt="Kathia Vianna — Advogada especialista em Nacionalidade Portuguesa"
+                  className="w-full h-[500px] object-cover"
+                  loading="lazy"
+                  width={800}
+                  height={1000}
+                />
+              </picture>
               <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
             </div>
 

@@ -3,6 +3,7 @@ import { ArrowRight, CheckCircle, Sparkles, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-lisbon.jpg';
+import heroImageWebp from '@/assets/hero-lisbon.webp';
 
 const trustMarkers = [
   '+2.000 processos aprovados',
