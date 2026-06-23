@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://knowledge-to-site-craft.lovable.app/</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa/netos</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa/filhos-menores</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa/filhos-maiores</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa/conjuges</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa/residencia</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa/bisnetos</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/cidadania-portuguesa/transcricao-casamento</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/busca-documentos</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/quiz</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/nacionalidade-portuguesa-para-netos-guia-completo-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/nacionalidade-portuguesa-para-filhos-guia-completo-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/nacionalidade-portuguesa-por-casamento-uniao-facto-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/quanto-custa-nacionalidade-portuguesa-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/documentos-necessarios-nacionalidade-portuguesa-checklist-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/quanto-tempo-demora-nacionalidade-portuguesa-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/nacionalidade-portuguesa-judeus-sefarditas-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/nacionalidade-portuguesa-bisnetos-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/transcricao-casamento-nascimento-obito-nacionalidade-portuguesa</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/pesquisa-genealogica-certidoes-portugal</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/blog/nacionalidade-portuguesa-brasileiros-passo-a-passo-2026</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/politica-privacidade</loc><lastmod>2026-06-23</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://knowledge-to-site-craft.lovable.app/termos-uso</loc><lastmod>2026-06-23</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- Páginas principais -->
+  <url><loc>https://viannalegal.com.br/</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://viannalegal.com.br/quiz</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/busca-documentos</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/blog</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- Páginas de serviço -->
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa/netos</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa/filhos-menores</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa/filhos-maiores</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa/conjuges</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa/residencia</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa/bisnetos</loc><lastmod>2026-06-23</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/cidadania-portuguesa/transcricao-casamento</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Artigos do blog (slugs reais) -->
+  <url><loc>https://viannalegal.com.br/blog/veto-tribunal-constitucional-dezembro-2025</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/guia-completo-cidadania-portuguesa-2025</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/vinculo-efetivo-como-comprovar</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/backlog-irn-prazos-reais-2025</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/dupla-cidadania-brasil-portugal-vantagens</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/documentos-cidadania-portuguesa-lista-completa</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/cidadania-portuguesa-por-casamento-guia-completo</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/cidadania-portuguesa-por-residencia-passo-a-passo</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/como-buscar-certidoes-portuguesas-portugal</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/cidadania-portuguesa-netos-guia-definitivo-2025</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://viannalegal.com.br/blog/como-acompanhar-processo-cidadania-portuguesa</loc><lastmod>2026-06-23</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+
+  <!-- Legal -->
+  <url><loc>https://viannalegal.com.br/politica-privacidade</loc><lastmod>2026-06-23</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://viannalegal.com.br/termos-uso</loc><lastmod>2026-06-23</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
 </urlset>

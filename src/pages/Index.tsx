@@ -10,11 +10,33 @@ import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/sections/Footer';
 import { Helmet } from 'react-helmet-async';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
+import { useAnalytics } from '@/hooks/useAnalytics';
+import { useEffect, useRef } from 'react';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 
 const Index = () => {
   useScrollToHash();
-  
+  const { trackScrollDepth } = useAnalytics();
+  const scrollMarks = useRef(new Set<number>());
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY;
+      const total    = document.body.scrollHeight - window.innerHeight;
+      const pct      = Math.round((scrolled / total) * 100);
+
+      ([25, 50, 75, 100] as const).forEach(mark => {
+        if (pct >= mark && !scrollMarks.current.has(mark)) {
+          scrollMarks.current.add(mark);
+          trackScrollDepth(mark);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   // Organization Schema
   const organizationData = {
     "@context": "https://schema.org",

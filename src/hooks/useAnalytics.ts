@@ -11,6 +11,7 @@ declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
     dataLayer?: unknown[];
+    fbq?: (...args: unknown[]) => void;
   }
 }
 
@@ -62,5 +63,30 @@ export function useAnalytics() {
     trackEvent('scroll_depth', { percent });
   };
 
-  return { trackEvent, trackConversion, trackPageView, trackScrollDepth };
+  /**
+   * Meta Pixel — evento de lead
+   */
+  const trackPixelLead = (params?: Record<string, string | number>) => {
+    if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+      window.fbq('track', 'Lead', params);
+    }
+  };
+
+  /**
+   * Google Ads — conversão de lead
+   * sendTo: formato 'AW-XXXXXXXXX/XXXXXXXXXXXX'
+   */
+  const trackGoogleAdsConversion = (sendTo: string) => {
+    if (!isAvailable()) return;
+    window.gtag!('event', 'conversion', { send_to: sendTo });
+  };
+
+  return {
+    trackEvent,
+    trackConversion,
+    trackPageView,
+    trackScrollDepth,
+    trackPixelLead,
+    trackGoogleAdsConversion,
+  };
 }

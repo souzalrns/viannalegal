@@ -285,7 +285,7 @@ export default function Quiz() {
   const [leadEmail, setLeadEmail] = useState('');
   const [leadPhone, setLeadPhone] = useState('');
   const [submitted, setSubmitted] = useState(false);
-  const { trackEvent, trackConversion } = useAnalytics();
+  const { trackEvent, trackConversion, trackPixelLead } = useAnalytics();
 
   // Calcula profundidade máxima da árvore dinamicamente
   const TOTAL_STEPS = (() => {
@@ -342,6 +342,7 @@ export default function Quiz() {
       `Olá! Fiz o quiz de cidadania portuguesa.\n\nNome: ${leadName}\nE-mail: ${leadEmail}\nWhatsApp: ${leadPhone}\n\nGostaria de uma análise gratuita do meu caso.`
     );
     trackConversion('lead_quiz', { result: resultKey });
+    trackPixelLead({ content_name: 'Quiz Cidadania' });
     window.open(`https://wa.me/351913134260?text=${msg}`, '_blank', 'noopener,noreferrer');
     setSubmitted(true);
   }

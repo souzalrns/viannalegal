@@ -44,7 +44,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 bg-gold/20 backdrop-blur-sm border border-gold/30 px-4 py-2 rounded-full text-gold mb-6"
           >
             <Sparkles className="w-4 h-4" aria-hidden="true" />
-            <span className="text-sm font-medium">Atualizado com a Lei Orgânica 1/2026</span>
+            <span className="text-sm font-medium">ViannaLegal · Atualizado com a Lei Orgânica 1/2026</span>
           </motion.div>
 
           {/* H1 — benefit-first */}
@@ -54,9 +54,9 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-5"
           >
-            Seu Passaporte Europeu
+            Cidadania Portuguesa
             <br />
-            <span className="text-gradient">começa aqui.</span>
+            <span className="text-gradient">para Brasileiros.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -66,9 +66,9 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg md:text-xl text-primary-foreground/85 mb-4 leading-relaxed"
           >
-            Mais de 2.000 brasileiros já obtiveram a cidadania portuguesa conosco.
-            Assessoria completa — do primeiro documento ao passaporte na mão —
-            sem você precisar sair do Brasil.
+            Assessoria especializada para quem tem descendência portuguesa.
+            Mais de 2.000 famílias já têm passaporte europeu — processo 100% online,
+            sem precisar viajar.
           </motion.p>
 
           {/* Urgency nudge */}

@@ -17,7 +17,7 @@ type FormState = 'idle' | 'submitting' | 'success' | 'error';
 
 export function Contact() {
   const { toast } = useToast();
-  const { trackConversion, trackEvent } = useAnalytics();
+  const { trackConversion, trackEvent, trackPixelLead } = useAnalytics();
 
   const [formState, setFormState] = useState<FormState>('idle');
   const [formData, setFormData] = useState({
@@ -57,6 +57,7 @@ export function Contact() {
       if (res.ok) {
         setFormState('success');
         trackConversion('lead_form', { page: '/' });
+        trackPixelLead({ content_name: 'Formulário Contato' });
         // Também abre WhatsApp como backup imediato
         const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
         window.open(`https://wa.me/351913134260?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');

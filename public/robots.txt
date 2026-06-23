@@ -1,4 +1,4 @@
-# ViannaLegal - Assessoria em Cidadania Portuguesa
+# ViannaLegal — Assessoria em Cidadania Portuguesa
 # https://viannalegal.com.br
 
 User-agent: Googlebot
@@ -19,4 +19,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://knowledge-to-site-craft.lovable.app/sitemap.xml
+Sitemap: https://viannalegal.com.br/sitemap.xml
