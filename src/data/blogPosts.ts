@@ -2010,334 +2010,201 @@ A ViannaLegal tem experiência em processos de cônjuges e pode orientar você d
     metaDescription: 'Naturalização portuguesa por residência 2025. Requisitos de 5 anos, teste de português A2, documentos e passo a passo completo para brasileiros.',
     relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'documentos-cidadania-portuguesa-lista-completa', 'como-acompanhar-processo-cidadania-portuguesa'],
     content: `
-## Introdução: O Caminho da Residência Legal
+**Actualizado em 23 de junho de 2026 — Lei Orgânica 1/2026 em vigor**
 
-Para brasileiros que vivem em Portugal sem ascendência portuguesa ou casamento com cidadão português, a **[naturalização por residência](/blog/cidadania-portuguesa-por-residencia-passo-a-passo)** é o caminho para a cidadania europeia. Este processo reconhece a integração do imigrante na sociedade portuguesa após um período mínimo de residência legal.
+> ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado antes de iniciar o seu processo.
 
-Com o [veto do Tribunal Constitucional](/blog/veto-tribunal-constitucional-dezembro-2025) em dezembro de 2025, o prazo permanece em **5 anos** (não subiu para 7-10 anos como havia sido proposto), tornando este momento favorável para quem já reside ou planeja se mudar para Portugal.
+A naturalização por residência é o caminho para quem vive legalmente em Portugal mas não tem ascendência portuguesa nem está casado com um cidadão português. A Lei Orgânica 1/2026, em vigor desde 19 de maio de 2026, alterou profundamente os prazos desta via — e a diferença entre CPLP e outros países é um dos pontos centrais que mais gera confusão.
 
-## Requisitos Fundamentais
+## O Prazo Vigente — Lei Orgânica 1/2026
+
+A lei estabelece três prazos distintos consoante a origem do requerente:
+
+| Origem | Prazo mínimo | Base legal |
+|--------|-------------|------------|
+| **Países da CPLP** (Brasil, Angola, Moçambique, Cabo Verde, S. Tomé, Guiné-Bissau, Timor-Leste, Guiné Equatorial) | **7 anos** | Art. 6.º, n.º 1, al. a) Lei 1/2026 |
+| **Cidadãos da União Europeia** | **7 anos** | Art. 6.º, n.º 1, al. a) Lei 1/2026 |
+| **Todos os outros países** | **10 anos** | Art. 6.º, n.º 1 Lei 1/2026 |
+
+> ⚠️ **Importante para brasileiros:** O prazo é de **7 anos**, não 5. Apesar do veto do Tribunal Constitucional em dezembro de 2025 que manteve temporariamente o prazo de 5 anos, a Lei 1/2026 aprovada em abril e promulgada em maio de 2026 reintroduziu o prazo de 7 anos para cidadãos CPLP.
+
+## Porquê Prazos Diferentes para CPLP?
+
+A distinção baseia-se em dois fundamentos:
+
+**1. Laços históricos e culturais**
+Portugal reconhece a relação especial com os países lusófonos — língua comum, história partilhada e laços culturais que facilitam a integração. Esta proximidade justifica um tratamento diferenciado face a cidadãos de países sem essa ligação.
+
+**2. Estatuto de Igualdade Brasil-Portugal**
+Brasileiros beneficiam adicionalmente do Tratado de Amizade, Cooperação e Consulta entre Brasil e Portugal (2000), que confere direitos especiais a brasileiros residentes em Portugal. Este estatuto é distinto e acumulável com os benefícios CPLP.
+
+**O que não muda:** mesmo com o prazo mais curto, os restantes requisitos (integração, idoneidade civil, meios de subsistência) aplicam-se igualmente a todos os requerentes.
+
+## Quem Conta Como CPLP?
+
+Os países da Comunidade dos Países de Língua Portuguesa são:
+
+- 🇧🇷 Brasil
+- 🇦🇴 Angola
+- 🇲🇿 Moçambique
+- 🇨🇻 Cabo Verde
+- 🇸🇹 São Tomé e Príncipe
+- 🇬🇼 Guiné-Bissau
+- 🇹🇱 Timor-Leste
+- 🇬🇶 Guiné Equatorial
+
+Nota: Moçambique tem o português como língua oficial mas o inglês também é amplamente usado. Guiné Equatorial aderiu à CPLP em 2014.
+
+## Requisitos Completos para Naturalização
 
 ### 1. Tempo de Residência Legal
 
-**Mínimo: 7 anos de residência legal para brasileiros e cidadãos CPLP** (Lei Orgânica 1/2026, em vigor desde maio de 2026); **5 anos para outros países**
+O tempo conta apenas com residência **legal e efectiva** em Portugal:
 
-O que conta como residência legal:
-- Autorização de Residência válida
-- Qualquer tipo de visto que permita residência
-- Tempo contado de forma contínua ou com pequenas interrupções
+**Conta para o prazo:**
+- Autorização de Residência válida (qualquer tipo)
+- Visto D7 (rendimentos passivos, aposentadoria)
+- Visto para empreendedores
+- Reunificação familiar
+- Golden Visa (autorização de residência por investimento)
 
-### 2. Conhecimento da Língua Portuguesa
+**Não conta:**
+- Visto de turista (90 dias)
+- Estadia irregular
+- Visto de curta duração (Schengen)
+- Períodos sem autorização válida
 
-Exigido certificado de **nível A2** (mínimo) do Quadro Europeu Comum de Referência para as Línguas.
+**Caso especial — estudantes:**
+O tempo de estudo conta apenas por metade. Exemplo: 4 anos de licenciatura = 2 anos para efeitos de naturalização. São necessários anos adicionais de residência laboral ou outra para completar o prazo.
 
-**Brasileiros:** Geralmente isentos do exame, pois o português é língua materna. Diplomas brasileiros servem como comprovação.
+**Interrupções:** Ausências curtas (férias, viagens de negócios) não interrompem a contagem. Ausências superiores a 6 meses consecutivos podem afectar a continuidade — consulte um advogado se este for o seu caso.
 
-### 3. Idoneidade Civil
+### 2. Ligação Efectiva à Comunidade
 
-Ausência de:
-- Condenação por crime com pena ≥ 3 anos de prisão
-- Indícios de envolvimento em atividades criminosas
-- Ameaça à segurança nacional
+Portugal exige que o requerente demonstre integração real — não basta ter o título de residência. São elementos valorados:
 
-### 4. Meios de Subsistência
+- Residência efectiva (não apenas título)
+- Participação no mercado de trabalho ou actividade económica
+- Conhecimento básico da língua e cultura portuguesas
+- Relações sociais e comunitárias
+- Registo no sistema fiscal (NIF activo) e de segurança social (NISS)
 
-Comprovação de que possui:
-- Renda regular (emprego, atividade profissional)
-- Meios suficientes para se manter
-- Ausência de dependência de auxílios sociais
+> ⚠️ **Regulamentação pendente:** A Lei 1/2026 reforçou os requisitos de "integração efectiva" mas a regulamentação específica dos critérios de avaliação ainda não foi publicada. Os elementos acima baseiam-se na prática administrativa anterior.
 
-### 5. Ligação Efetiva à Comunidade
+### 3. Conhecimento da Língua Portuguesa
 
-Demonstração de integração na sociedade portuguesa:
-- Residência efetiva (não apenas título)
-- Participação na vida social
-- Conhecimento básico da cultura portuguesa
+Exige-se certificado de nível **A2** do Quadro Europeu Comum de Referência.
 
-## Actualização: Lei 1/2026 Reintroduz Prazo de 7 Anos para CPLP
+**Quem está isento:**
+- Brasileiros com diplomas do ensino básico, secundário ou superior — o diploma serve como prova da língua materna
+- Cidadãos de todos os países da CPLP com escolaridade documentada em português
 
-> ⚠️ **Importante:** Apesar do veto do TC em dezembro de 2025, a **Lei Orgânica 1/2026 (em vigor desde maio de 2026)** reintroduziu o prazo de 7 anos para brasileiros e cidadãos CPLP. O artigo abaixo descreve o contexto histórico do veto, mas o prazo vigente actualmente é de 7 anos.
+**Quem precisa de fazer o exame:**
+- Cidadãos da UE não lusófonos
+- Cidadãos de países fora da CPLP
+- Qualquer pessoa sem documentação escolar que comprove o português
 
-Em dezembro de 2025, o Tribunal Constitucional vetou o aumento do prazo de residência que havia sido aprovado pelo Parlamento:
+**Onde fazer o exame CAPLE:**
+- Instituto Camões (Lisboa, Porto e delegações)
+- Universidades parceiras em Portugal
+- Centros credenciados no estrangeiro
+- Custo: aproximadamente €80-100
 
-**O que foi vetado:**
-- Aumento para 7 anos (cidadãos CPLP)
-- Aumento para 10 anos (outros)
-- Aplicação retroativa
+### 4. Idoneidade Civil
 
-**O que permanece:**
-- Prazo de 5 anos para todos
-- Tratamento favorável a lusófonos
-- Regras atuais vigentes
+Impedem a naturalização:
+- Condenação por crime com **pena de prisão igual ou superior a 3 anos** (critério reforçado pela Lei 1/2026)
+- Indícios de actividade criminosa
+- Ameaça à segurança ou ordem pública
 
-**Impacto:** Este é um momento favorável para brasileiros que completam ou se aproximam dos 5 anos de residência.
+Este requisito foi alargado pela Lei 1/2026 — aplica-se agora a mais modalidades de acesso à cidadania do que antes.
 
-## Tipos de Visto que Contam
+### 5. Meios de Subsistência
 
-Nem todo visto conta para o tempo de residência. Veja o que é válido:
+Comprovação de capacidade para se manter sem dependência do Estado:
+- Contrato de trabalho e recibos de vencimento
+- Declarações de IRS dos últimos anos
+- Extractos bancários com movimentação regular
+- Declaração de actividade se trabalhador independente
 
-### Válidos para Contagem
+## Documentação Necessária
 
-✓ Autorização de Residência para trabalho
-✓ Autorização de Residência para estudo (parcialmente)
-✓ Visto D7 (aposentados e titulares de rendimentos)
-✓ Visto para empreendedores (Startup Visa)
-✓ Visto de reunificação familiar
-✓ Visto Gold (investimento)
-✓ Autorização para atividade profissional independente
+### Documentos de Residência
+- Autorização de Residência válida (original e cópia)
+- Histórico completo de autorizações anteriores (cobrindo o período exigido)
+- Atestado de residência da Junta de Freguesia
 
-### Não Válidos para Contagem
+### Documentos de Identificação
+- Certidão de nascimento apostilada e traduzida
+- Passaporte válido
+- NIF e NISS
 
-✗ Visto de turista (90 dias)
-✗ Estadia irregular
-✗ Visto de curta duração
-✗ Períodos sem autorização válida
-
-### Contagem para Estudantes
-
-Estudantes têm regra específica:
-- Apenas **50% do tempo** de estudo conta
-- Exemplo: 4 anos de estudo = 2 anos para naturalização
-- Necessário residir 3 anos adicionais após estudo
-
-## Documentos Necessários
-
-### Comprovação de Residência Legal
-
-☐ Autorização de Residência válida
-- Original e cópia
-
-☐ Histórico de autorizações anteriores
-- Cobrindo os 5 anos
-
-☐ Certificado de Registro do SEF/AIMA
-- Histórico completo
-
-☐ Atestado de Residência
-- Emitido pela Junta de Freguesia
-- Comprovando residência efetiva
-
-### Comprovação de Meios de Subsistência
-
-☐ Declarações de IRS
-- Últimos 3-5 anos
-
-☐ Comprovantes de rendimentos
-- Recibos de vencimento
-- Declaração do empregador
-- Balanços (se empresário)
-
-☐ Extrato bancário
-- Demonstrando movimentação regular
-
-☐ Contrato de trabalho
-- Se empregado
-
-### Conhecimento de Português
-
-☐ Certificado de nível A2 ou superior
-- CAPLE (Centro de Avaliação de Português)
-- Instituto Camões
-
-**OU**
-
-☐ Diplomas brasileiros
-- Ensino fundamental, médio ou superior
-- Comprovam português como língua materna
+### Meios de Subsistência
+- Declarações de IRS (últimos 3-5 anos)
+- Recibos de vencimento ou declaração do empregador
+- Extractos bancários
 
 ### Idoneidade Civil
+- Registo criminal português (válido 3 meses — solicite próximo da data de protocolo)
+- Registo criminal brasileiro federal e estadual (apostilado)
+- Registo criminal de outros países onde residiu mais de 1 ano
 
-☐ Registo Criminal Português
-- Emitido online ou presencialmente
-- Validade: 3 meses
+### Língua Portuguesa
+- Diplomas de escolaridade brasileiros **ou** certificado CAPLE nível A2
 
-☐ Registo Criminal Brasileiro
-- Federal (Polícia Federal)
-- Estadual
-- Apostilados e traduzidos
+## Prazos Actuais de Análise
 
-☐ Registros de países onde residiu
-- Se morou em outros países por mais de 1 ano
+Com o [backlog de 700.000 processos pendentes](/blog/700-mil-processos-irn-o-que-significa-para-voce) após a corrida às submissões de maio de 2026, os prazos de análise são os seguintes (estimativas):
 
-### Documentos Pessoais
+| | Prazo oficial | Prazo real estimado (2026) |
+|---|---|---|
+| Naturalização por residência | 18 meses | **36-48 meses** |
 
-☐ Certidão de nascimento
-- Inteiro teor
-- Apostilada e traduzida
-
-☐ Passaporte válido
-
-☐ NIF (Número de Identificação Fiscal)
-
-☐ NISS (Número de Segurança Social)
-
-☐ Comprovante de morada atual
-
-☐ Formulário de requerimento
-- Modelo do IRN
-
-☐ Comprovante de pagamento da taxa
+A análise ocorre na Conservatória dos Registos Centrais (CRC) em Lisboa para a maioria dos processos de naturalização.
 
 ## Passo a Passo do Processo
 
-### Etapa 1: Verificação de Elegibilidade
+**1. Verificar elegibilidade**
+Confirmar anos de residência legal, ausência de impedimentos e documentação completa.
 
-Antes de iniciar, confirme:
-- 5 anos completos de residência legal
-- Documentação de residência organizada
-- Ausência de impedimentos legais
+**2. Reunir documentação** (4-8 semanas)
+Começar pelos documentos com prazo de validade curto (registo criminal: 3 meses) mais próximo da data de protocolo.
 
-### Etapa 2: Obtenção do Certificado de Língua
+**3. Apostilar e traduzir documentos brasileiros**
+Apostilamento no Brasil (cartório conveniado), tradução juramentada em Portugal.
 
-Se não for isento (brasileiros geralmente são):
-- Inscreva-se no exame CAPLE
-- Locais: Instituto Camões, universidades
-- Custo: ~€80-100
-- Nível mínimo: A2
+**4. Protocolar o pedido**
+Presencialmente na Conservatória ou, quando disponível, online através do portal do IRN.
 
-### Etapa 3: Reunião de Documentos
+**5. Acompanhar o processo**
+Através do [portal MJ.pt](/blog/como-acompanhar-processo-cidadania-portuguesa) com o número de processo atribuído no protocolo.
 
-Prazo médio: 4-8 semanas
+**6. Responder a eventuais diligências**
+O IRN pode solicitar documentos adicionais. Responder rapidamente evita perdas de posição na fila.
 
-- Solicite registros criminais (vencem rápido!)
-- Atualize certidões
-- Apostile e traduza documentos brasileiros
-
-### Etapa 4: Preenchimento do Requerimento
-
-- Formulário disponível no site do IRN
-- Preencha com dados corretos
-- Anexe todos os documentos
-
-### Etapa 5: Protocolo do Pedido
-
-**Local:** Conservatória do Registo Civil da área de residência
-
-**Formas:**
-- Presencialmente
-- Online (parcialmente disponível)
-
-### Etapa 6: Análise pelo IRN
-
-Prazo atual: **18-30 meses**
-
-O IRN verificará:
-- Tempo de residência legal
-- Autenticidade dos documentos
-- Idoneidade civil
-- Meios de subsistência
-
-### Etapa 7: Possíveis Diligências
-
-Pode ser solicitado:
-- Documentos adicionais
-- Esclarecimentos
-- Entrevista (raro)
-
-### Etapa 8: Decisão e Juramento
-
-Após aprovação:
-- Comunicação oficial
-- Agendamento do juramento (em alguns casos)
-- Emissão da certidão de nascimento portuguesa
-
-## O Exame de Português: Detalhes
-
-### Quem Precisa Fazer?
-
-- Cidadãos de países de língua não portuguesa
-- Pessoas sem escolaridade documentada em português
-
-### Quem Está Isento?
-
-- Brasileiros com diplomas escolares
-- Cidadãos de países lusófonos
-- Cônjuges de portugueses há mais de 3 anos
-
-### Nível Exigido: A2
-
-O nível A2 corresponde a:
-- Compreender frases simples
-- Comunicar em situações do dia a dia
-- Descrever experiências básicas
-- Escrever textos simples
-
-### Onde Fazer o Exame
-
-- Centros CAPLE em Portugal
-- Institutos Camões credenciados
-- Universidades parceiras
-
-### Dicas de Preparação
-
-- Cursos preparatórios disponíveis
-- Materiais de estudo online
-- Pratica conversação diária
+**7. Decisão e emissão da certidão**
+Após aprovação, é emitida a certidão de nascimento portuguesa que formaliza a cidadania.
 
 ## Custos Estimados
 
-### Taxas Oficiais
-
-| Item | Valor Aproximado |
-|------|------------------|
-| Taxa de naturalização | €250 |
-| Registo Criminal PT | €15 |
+| Item | Valor aproximado |
+|------|-----------------|
+| Taxa de naturalização (IRN) | €250 |
+| Registo criminal Portugal | €15 |
 | Certificado CAPLE (se necessário) | €80-100 |
-| Certidões portuguesas | €20-50 |
-
-### Custos com Documentos Brasileiros
-
-| Item | Valor Aproximado |
-|------|------------------|
-| Certidão de nascimento | R$ 70-150 |
-| Apostilamento (por documento) | R$ 130 |
+| Certidão de nascimento apostilada (Brasil) | R$ 70-150 + apostila R$ 130 |
+| Registos criminais Brasil (federal + estadual) | gratuito a R$ 100 |
 | Traduções (por documento) | €30-80 |
-| Antecedentes criminais | Gratuito a R$ 50 |
 
-### Custo Total Estimado
+## Protegido pelas Regras Anteriores?
 
-Sem assessoria: €400-700
-Com assessoria: Consulte valores atualizados
-
-## Perguntas Frequentes
-
-**Posso trabalhar enquanto espero a decisão?**
-Sim. Você continua com sua Autorização de Residência válida.
-
-**Minha família pode se beneficiar?**
-Após sua naturalização, cônjuge e filhos podem ter facilitações em seus próprios processos.
-
-**Saí de Portugal por alguns meses. Perde a contagem?**
-Depende. Ausências curtas (férias, viagens de negócios) não interrompem. Ausências longas (mais de 6 meses contínuos) podem afetar.
-
-**Posso acumular tempo de estudo com tempo de trabalho?**
-Sim. O tempo de estudo (contado pela metade) pode somar ao tempo de trabalho.
-
-**Se for recusado, posso tentar novamente?**
-Sim. Identifique o motivo da recusa, resolva e reapresente.
-
-## Vantagens da Naturalização por Residência
-
-- Não exige ascendência portuguesa
-- Não exige casamento
-- Reconhece a integração real na sociedade
-- Prazo relativamente curto (5 anos)
-
-## Conclusão: Sua Vida em Portugal, Sua Cidadania
-
-A naturalização por residência é o reconhecimento de que Portugal se tornou seu lar. Se você construiu sua vida aqui, trabalha, paga impostos e participa da comunidade, tem todo o direito de se tornar cidadão.
-
-Com o prazo de 5 anos mantido após o veto do TC, este é um momento favorável para iniciar ou concluir seu processo.
-
----
-
-**Reside em Portugal há 5+ anos?** Agende uma análise gratuita com a ViannaLegal e descubra como conquistar sua cidadania portuguesa.
-    
+Se submeteu o pedido antes de 19 de maio de 2026, as regras que se aplicam ao seu processo são as que vigoravam nessa data — incluindo o prazo de 5 anos. O IRN confirmou publicamente esta posição. Veja o artigo completo sobre [o que muda para quem protocolou antes da Lei 1/2026](/blog/protocolo-antes-lei-1-2026-o-que-muda).
 
 ## Fontes e Referências Oficiais
 
-- [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
+- [Lei Orgânica n.º 1/2026 — texto consolidado (DRE)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
 - [IRN — Naturalização por Residência](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+- [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
 `,
   },
   {
