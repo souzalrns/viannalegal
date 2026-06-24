@@ -3176,3 +3176,347 @@ Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer
 `,
   },
 ];
+
+// ── ARTIGOS ADICIONAIS — Lei Orgânica 1/2026 ─────────────────────────────────
+
+export const blogPostsExtra = [
+  {
+    id: 12,
+    slug: 'bisnetos-via1-vs-via2-cidadania-portuguesa',
+    title: 'Bisnetos e a Cidadania Portuguesa: Via 1 (Atribuição) vs Via 2 (Aquisição) — Qual a Diferença?',
+    excerpt: 'A Lei Orgânica 1/2026 criou duas vias distintas para bisnetos de portugueses. Entenda a diferença crucial entre atribuição originária e aquisição derivada — e por que isso afecta o que você pode transmitir aos seus filhos.',
+    date: '23 Jun 2026',
+    readTime: '10 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Scale,
+    featured: true,
+    relatedSlugs: ['cidadania-portuguesa-netos-guia-definitivo-2025', 'guia-completo-cidadania-portuguesa-2025', 'vinculo-efetivo-como-comprovar'],
+    metaDescription: 'Entenda a diferença entre Via 1 (atribuição originária) e Via 2 (aquisição derivada) para bisnetos na cidadania portuguesa — Lei 1/2026. Veja qual se aplica ao seu caso.',
+    content: `
+**Actualizado em 23 de junho de 2026**
+
+> ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. A regulamentação da via para bisnetos ainda não foi publicada à data deste artigo. Consulte sempre um advogado especializado.
+
+A Lei Orgânica 1/2026 trouxe uma novidade que poucos artigos explicam com clareza: para bisnetos de portugueses, **existem agora duas vias com natureza jurídica completamente diferente** — e a distinção tem consequências práticas enormes, especialmente no que pode ser transmitido aos seus filhos.
+
+## Via 1 — Atribuição Originária (Descendência Directa)
+
+A Via 1 é a via clássica da descendência. Nela, Portugal **reconhece** que o bisneto é português de origem — não concede uma nova cidadania, mas reconhece uma que já existia desde o nascimento.
+
+**Como funciona:**
+O bisneto obtém a cidadania como atribuição originária quando a cadeia de descendência é comprovada de forma sequencial: o bisavô/bisavó português(a) → o avô/avó → o pai/mãe → o bisneto. Cada elo da cadeia precisa de ter (ou ter tido) a nacionalidade portuguesa reconhecida antes do elo seguinte poder avançar.
+
+**Consequências práticas:**
+- A nationalidade é reconhecida **retroactivamente desde o nascimento** do bisneto
+- Pode ser **transmitida aos filhos do bisneto** como cidadania originária
+- É mais robusta juridicamente — não pode ser revogada por decisão administrativa
+- É considerada cidadania de origem para todos os efeitos legais na UE
+
+**O grande desafio:**
+Requer que o bisavô, o avô e o pai/mãe tenham os seus processos de cidadania resolvidos em sequência. Se o avô nunca solicitou a nacionalidade, é necessário fazê-lo antes (ou em simultâneo) que o bisneto possa avançar. É um processo de planeamento familiar que pode levar anos.
+
+## Via 2 — Aquisição Derivada (Residência em Portugal)
+
+A Via 2 é a via nova criada especificamente pela Lei 1/2026. Aqui, Portugal **concede** a cidadania ao bisneto por ele ter construído laços reais com o país através da residência.
+
+**Como funciona:**
+O bisneto que resida legalmente em Portugal há pelo menos 5 anos pode solicitar a cidadania directamente, sem precisar que os elos anteriores da cadeia (avô, pai) tenham cidadania portuguesa.
+
+**Consequências práticas:**
+- A cidadania produz efeitos **a partir do acto de concessão** (não retroage ao nascimento)
+- A transmissão aos filhos do bisneto tem **restrições maiores** do que na Via 1
+- Pode ser anulada em casos previstos em lei
+- Está sujeita a requisitos de integração que ainda aguardam regulamentação específica
+
+> ⚠️ **Regulamentação pendente:** A Via 2 ainda não tem decreto regulamentador publicado. Os requisitos exactos de integração e os critérios de avaliação não estão formalmente definidos à data deste artigo.
+
+## Comparação Directa
+
+| | **Via 1 (Atribuição)** | **Via 2 (Aquisição)** |
+|---|---|---|
+| **Base legal** | Descendência directa | Residência em Portugal (5+ anos) |
+| **Retroactividade** | Desde o nascimento | Desde o acto de concessão |
+| **Transmissão aos filhos** | Originária (plena) | Derivada (com restrições) |
+| **Revogabilidade** | Não pode ser revogada | Pode ser anulada em casos previstos |
+| **Onde posso estar** | Brasil ou Portugal | Obrigatoriamente em Portugal |
+| **Regulamentação** | Regime já estabelecido | Ainda aguarda regulamentação |
+| **Complexidade** | Alta (processo sequencial) | Moderada (mas incerteza legal) |
+
+## Qual Via Escolher?
+
+**Se está no Brasil:** Só tem acesso à Via 1. A Via 2 exige residência legal em Portugal.
+
+**Se está em Portugal há menos de 5 anos:** Pode iniciar o processo sequencial da Via 1 enquanto acumula o tempo para a Via 2.
+
+**Se está em Portugal há 5+ anos:** Tem as duas opções — mas dada a natureza originária e a transmissibilidade plena da Via 1, vale a pena avaliar com um advogado qual é mais vantajosa no seu caso específico.
+
+**Se tem filhos e quer transmitir a cidadania a eles:** A Via 1 é claramente mais vantajosa — a cidadania originária transmite-se de forma plena, sem as restrições da cidadania por aquisição.
+
+## O Que Está Pendente
+
+A Lei 1/2026 criou o enquadramento, mas a regulamentação específica da Via 2 ainda não foi publicada. Isto significa que, neste momento, não existe uma lista formal de critérios de integração, não há um formulário específico, e os prazos administrativos não estão definidos.
+
+O [Diário da República](https://dre.pt) é o local oficial onde essa regulamentação será publicada. Recomendamos acompanhar e consultar um advogado especializado antes de tomar qualquer decisão sobre qual via seguir.
+
+## Fontes e Referências Oficiais
+
+- [Lei Orgânica n.º 1/2026 (Diário da República)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+- [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+`,
+  },
+
+  {
+    id: 13,
+    slug: 'protocolo-antes-lei-1-2026-o-que-muda',
+    title: 'Protocolei Meu Pedido Antes de 19 de Maio de 2026 — O Que Muda para Mim?',
+    excerpt: 'O IRN confirmou: a data de submissão determina qual lei se aplica ao seu processo. Quem entrou antes da Lei 1/2026 mantém as regras anteriores — mesmo que a análise ocorra depois. Entenda os seus direitos.',
+    date: '23 Jun 2026',
+    readTime: '7 min',
+    author: 'Kathia Vianna',
+    category: 'Dicas',
+    icon: Clock,
+    featured: false,
+    relatedSlugs: ['veto-tribunal-constitucional-dezembro-2025', 'backlog-irn-prazos-reais-2025', 'como-acompanhar-processo-cidadania-portuguesa'],
+    metaDescription: 'Quem submeteu o pedido de cidadania portuguesa antes de 19 de maio de 2026 mantém as regras antigas. O IRN confirmou: vale a data de submissão, não a de análise.',
+    content: `
+**Actualizado em 23 de junho de 2026**
+
+> ⚠️ **Aviso jurídico:** Este artigo é informativo. Para análise do seu caso específico, consulte sempre um advogado especializado.
+
+Uma das dúvidas mais urgentes desde a promulgação da Lei Orgânica 1/2026 em maio de 2026 é: **quem já tinha um pedido em curso fica sujeito às novas regras?** A resposta oficial do IRN é clara — e é uma boa notícia para quem já agiu.
+
+## O Que o IRN Confirmou
+
+O Instituto dos Registos e Notariado emitiu uma declaração pública confirmando a sua posição:
+
+> "O IRN informa que, para efeitos de aplicação das alterações à Lei da Nacionalidade, será considerada a **data de submissão do pedido** na plataforma online."
+
+Isto significa que **o regime jurídico aplicável ao seu processo é determinado pela data em que submeteu o pedido** — não pela data em que o IRN o analisa ou decide. Dado o [backlog de mais de 700.000 processos pendentes](/blog/backlog-irn-prazos-reais-2025), a análise pode ocorrer anos depois da submissão, mas as regras que se aplicam são as que vigoravam quando submeteu.
+
+## O Que "Regime Anterior" Significa na Prática
+
+Se submeteu o pedido antes de 19 de maio de 2026, mantém:
+
+**Para naturalização por residência:**
+- Prazo de 5 anos (não os 7 anos agora exigidos para brasileiros/CPLP)
+- Critérios de integração anteriores à Lei 1/2026
+
+**Para descendência (filhos e netos):**
+- Os requisitos de [vínculo efetivo](/blog/vinculo-efetivo-como-comprovar) aplicáveis eram os anteriores
+- Os critérios documentais eram os vigentes antes de maio de 2026
+
+**Para o regime sefardita:**
+- Quem submeteu antes da extinção do regime mantém o direito a que o pedido seja analisado sob as regras anteriores
+
+## Como Comprovar a Data de Submissão
+
+É fundamental guardar o comprovativo da submissão online. Se submeteu pelo portal do IRN, deve ter recebido:
+
+1. **Número de processo** — guarde-o permanentemente
+2. **Confirmação por e-mail** — não apague, é a sua prova de data
+3. **Recibo da plataforma** — faça um PDF ou screenshot com data visível
+
+Se tem dúvidas sobre a data registada no sistema, pode [consultar o estado do processo](/blog/como-acompanhar-processo-cidadania-portuguesa) no portal MJ.pt usando o número de processo.
+
+## E Se Ainda Não Submeti?
+
+Se ainda não deu entrada no pedido, as novas regras da Lei 1/2026 aplicam-se na totalidade desde 19 de maio de 2026. As principais mudanças que afectam quem submete agora:
+
+- **Residência para brasileiros/CPLP:** 7 anos (era 5)
+- **Filhos nascidos em Portugal:** progenitores precisam de 5 anos de residência legal
+- **Regime sefardita:** extinto para novas candidaturas
+- **Requisitos criminais:** alargados a mais modalidades
+- **Bisnetos:** nova via directa com residência em Portugal, pendente de regulamentação
+
+## A Urgência de Submeter Antes de Novas Alterações
+
+A história recente mostra que a Lei da Nacionalidade portuguesa tem sido alterada com frequência. O [veto do Tribunal Constitucional](/blog/veto-tribunal-constitucional-dezembro-2025) de dezembro de 2025 e a posterior Lei 1/2026 de maio de 2026 são exemplos de como o enquadramento pode mudar rapidamente.
+
+Se tem elegibilidade para submeter agora, a data de submissão funciona como uma âncora jurídica que protege o seu processo de futuras alterações legislativas. Quanto mais cedo submeter um pedido válido e bem instruído, mais protegido fica.
+
+**Tem dúvidas sobre a sua elegibilidade ou sobre como o regime anterior se aplica ao seu caso?** Fale com um especialista — a análise inicial é gratuita.
+
+## Fontes e Referências Oficiais
+
+- [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
+- [Portal de Consulta de Nacionalidade MJ.pt](https://nacionalidade.justica.gov.pt)
+- [Lei Orgânica n.º 1/2026 (DRE)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+`,
+  },
+
+  {
+    id: 14,
+    slug: '700-mil-processos-irn-o-que-significa-para-voce',
+    title: '700.000 Processos Pendentes no IRN: O Que Isso Significa para o Seu Caso?',
+    excerpt: 'O número de processos pendentes no IRN atingiu 700.000 após a Lei 1/2026 — um recorde histórico. Entenda o impacto real nos prazos, o que o IRN fez para responder ao colapso e como posicionar melhor o seu pedido.',
+    date: '23 Jun 2026',
+    readTime: '8 min',
+    author: 'Kathia Vianna',
+    category: 'Análise',
+    icon: TrendingUp,
+    featured: true,
+    relatedSlugs: ['backlog-irn-prazos-reais-2025', 'como-acompanhar-processo-cidadania-portuguesa', 'documentos-cidadania-portuguesa-lista-completa'],
+    metaDescription: 'O IRN tem 700.000 processos de cidadania pendentes após a Lei 1/2026. Saiba o que isso muda nos prazos reais e como proteger o seu processo.',
+    content: `
+**Actualizado em 23 de junho de 2026**
+
+> ⚠️ **Aviso jurídico:** Os números e prazos aqui apresentados são estimativas baseadas em dados públicos. Cada processo tem as suas particularidades. Consulte sempre um advogado especializado.
+
+Quando a Lei Orgânica 1/2026 foi promulgada em 3 de maio de 2026, aconteceu algo previsível mas de proporções históricas: **uma corrida massiva às plataformas do IRN** para submeter pedidos antes das novas regras entrarem em vigor. O resultado está agora documentado: mais de 700.000 processos pendentes de análise.
+
+## Os Números
+
+Antes da Lei 1/2026, o IRN já tinha cerca de 516.000 pedidos pendentes — um volume que, por si só, representava um [backlog histórico](/blog/backlog-irn-prazos-reais-2025) com esperas médias de 3 anos. Em maio de 2026, o IRN reconheceu publicamente que as suas plataformas registaram "níveis de utilização muito elevados" com um "aumento significativo" de submissões.
+
+O número de 700.000 processos pendentes representa:
+- Cerca de **35% de aumento** face ao volume anterior
+- Mais processos do que Portugal tem habitantes na cidade de Lisboa
+- Um tempo de espera médio que pode aproximar-se ou ultrapassar os 4 anos para novos pedidos
+
+## Por Que Houve Esta Corrida?
+
+A lógica foi simples: quem submetesse antes de 19 de maio de 2026 ficaria protegido pelas regras anteriores — incluindo o prazo de 5 anos de residência para brasileiros (em vez dos 7 agora exigidos). Para quem estava a 5 anos de residência ou quase a atingir a elegibilidade para netos, a janela de maio de 2026 foi a última oportunidade de submeter com as regras antigas.
+
+## O Que o IRN Fez
+
+Face ao colapso das plataformas, o IRN tomou algumas medidas:
+
+**Confirmação da data de submissão:**
+O IRN confirmou publicamente que a data de submissão online determina o regime jurídico aplicável — uma garantia importante para quem submeteu mesmo com o sistema congestionado.
+
+**Priorização declarada:**
+O IRN indicou que processos mais antigos continuam a ser prioritários na fila de análise.
+
+**Sem reforço significativo de capacidade:**
+Não houve anúncio de contratação massiva de técnicos ou de medidas estruturais para resolver o backlog no curto prazo.
+
+## O Impacto Real nos Prazos
+
+Com 700.000 processos na fila, a realidade para quem submete hoje é dura:
+
+| Tipo de processo | Prazo médio anterior | Estimativa actual |
+|---|---|---|
+| Filhos menores | 6-8 meses | 8-14 meses |
+| Filhos maiores | 12-14 meses | 16-24 meses |
+| Netos | 24-42 meses | 36-54+ meses |
+| Cônjuges | 24-48 meses | 36-60+ meses |
+| Naturalização | 20-32 meses | 30-48+ meses |
+
+Estes são cenários estimados — cada conservatória tem o seu próprio ritmo, e o volume de processos varia significativamente entre elas.
+
+## Como Posicionar Melhor o Seu Pedido
+
+Num contexto de fila longa, a qualidade da instrução documental torna-se ainda mais crítica. Um processo com documentação incompleta ou inconsistente gera exigências — o que paralisa o processo e pode fazer com que perca a sua posição na fila por meses.
+
+**O que faz a diferença:**
+
+1. **[Documentação completa e consistente](/blog/documentos-cidadania-portuguesa-lista-completa)** — nomes, datas e locais coerentes entre todos os documentos. Divergências entre certidões brasileiras e registos portugueses são a principal causa de atrasos.
+
+2. **Escolha da conservatória** — conservatórias com menor volume de processos têm tempos de espera menores. Vale a pena analisar qual a mais indicada para o seu caso.
+
+3. **[Acompanhamento activo do processo](/blog/como-acompanhar-processo-cidadania-portuguesa)** — verificar o estado no portal MJ.pt e responder rapidamente a qualquer exigência do IRN.
+
+4. **Representação por advogado habilitado** — processos com representação tendem a ter menos exigências e respostas mais rápidas quando surgem.
+
+## A Decisão de Esperar vs. Agir Agora
+
+Dado o aumento contínuo do backlog, existe um argumento claro para não esperar: **cada mês sem submissão é um mês mais atrás na fila**. Se tem elegibilidade e documentação em ordem, submeter agora significa entrar na fila imediatamente — e a fila só tende a crescer.
+
+Por outro lado, submeter um processo incompleto pode ser pior do que esperar para completar a documentação — as exigências do IRN fazem recomeçar o relógio.
+
+**Tem dúvidas sobre se a sua documentação está pronta para submissão?** A análise inicial é gratuita — fale connosco pelo WhatsApp.
+
+## Fontes e Referências Oficiais
+
+- [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
+- [Portal de Consulta de Nacionalidade MJ.pt](https://nacionalidade.justica.gov.pt)
+- [Diário da República — Lei Orgânica 1/2026](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+`,
+  },
+
+  {
+    id: 15,
+    slug: 'filhos-nascidos-em-portugal-nova-lei-2026',
+    title: 'Filhos Nascidos em Portugal: O Que Mudou com a Lei 1/2026?',
+    excerpt: 'A nova lei alterou profundamente as regras para filhos de estrangeiros nascidos em Portugal. Os progenitores precisam agora de 5 anos de residência legal — o dobro do exigido antes. Entenda quem é afectado e o que fazer.',
+    date: '23 Jun 2026',
+    readTime: '8 min',
+    author: 'Kathia Vianna',
+    category: 'Legislação',
+    icon: Users,
+    featured: false,
+    relatedSlugs: ['protocolo-antes-lei-1-2026-o-que-muda', 'cidadania-portuguesa-por-residencia-passo-a-passo', 'documentos-cidadania-portuguesa-lista-completa'],
+    metaDescription: 'A Lei 1/2026 exige agora 5 anos de residência legal dos pais para que filhos nascidos em Portugal sejam portugueses. Saiba quem é afectado e quais as alternativas.',
+    content: `
+**Actualizado em 23 de junho de 2026**
+
+> ⚠️ **Aviso jurídico:** Este artigo é informativo e não substitui análise jurídica individualizada. Consulte sempre um advogado especializado antes de tomar decisões com base neste conteúdo.
+
+Se tem filhos nascidos em Portugal ou planeia ter, a Lei Orgânica 1/2026 trouxe uma alteração que passa despercebida no meio do debate sobre prazos de residência e bisnetos — mas que afecta directamente milhares de famílias: **as regras para a cidadania de filhos nascidos em Portugal mudaram de forma significativa**.
+
+## O Que Era Antes
+
+Antes da Lei 1/2026, eram portugueses de origem os menores nascidos em Portugal que tivessem **um dos progenitores residente no país há pelo menos 1 ano**, independentemente do tipo de título de residência. Um progenitor com apenas 12 meses de residência já garantia a cidadania portuguesa ao filho nascido em solo português.
+
+## O Que Mudou
+
+Com a Lei 1/2026, esse prazo passou de **1 ano para 5 anos de residência legal**. O progenitor (ou um dos progenitores) tem de residir legalmente em Portugal há pelo menos 5 anos à data do nascimento da criança para que esta seja considerada portuguesa de origem.
+
+**Isto representa um aumento de 400% no requisito de residência.**
+
+## Quem É Directamente Afectado
+
+**Famílias com residência recente em Portugal:**
+Se chegaram a Portugal há menos de 5 anos e têm filhos nascidos em território português após 19 de maio de 2026, a criança não adquire automaticamente a cidadania portuguesa por nascimento — mesmo tendo nascido em Portugal.
+
+**Quem não é afectado:**
+- Filhos nascidos antes de 19 de maio de 2026 — mantêm os direitos pelo regime anterior
+- Filhos de cidadãos portugueses — a cidadania por filiação não foi alterada
+- Famílias em que um dos progenitores já tem 5+ anos de residência legal
+
+## A Importância da Data de Submissão
+
+Tal como nas outras alterações da Lei 1/2026, o IRN confirmou que **a data de submissão do pedido determina o regime aplicável**. Isto é relevante para crianças nascidas antes de maio de 2026 cujo processo ainda não foi protocolado — vale a pena analisar urgentemente se convém submeter o pedido para garantir a aplicação do regime anterior.
+
+## Alternativas para Quem Não Cumpre o Requisito
+
+Se o seu filho nasceu em Portugal mas os progenitores não têm 5 anos de residência, existem outros caminhos a avaliar:
+
+**1. Cidadania por filiação (se um dos pais for português):**
+Se um dos pais tiver ou vier a obter a cidadania portuguesa — por descendência ou naturalização — o filho pode adquirir a cidadania por filiação, independentemente do local de nascimento.
+
+**2. Naturalização por residência:**
+Quando a criança atingir os anos de residência exigidos (ou os progenitores os cumprirem), existe a via da naturalização. Porém, este é um processo mais longo e com mais requisitos.
+
+**3. Aceleração do processo dos pais:**
+Se um dos progenitores está próximo dos [5 ou 7 anos de residência](/blog/cidadania-portuguesa-por-residencia-passo-a-passo), antecipar o pedido de naturalização pode abrir a via da cidadania por filiação para o filho.
+
+## O Que Preparar
+
+Se esta situação se aplica ao seu caso, os documentos a reunir incluem:
+
+- Certidão de nascimento da criança (emitida pelo registo civil português)
+- Prova de residência legal dos progenitores (autorização de residência com historial)
+- Documentos de identificação dos progenitores
+- Prova da data de início de residência legal em Portugal
+
+A análise do enquadramento legal do caso específico deve ser feita por um advogado antes de qualquer submissão.
+
+## Uma Mudança com Impacto Silencioso
+
+Esta alteração não gerou tanto debate público como o aumento dos prazos de residência ou a extinção do regime sefardita — mas tem um impacto directo e imediato em famílias de imigrantes recentes que planeavam a cidadania dos filhos com base nas regras anteriores.
+
+Se tem dúvidas sobre como esta mudança afecta o seu caso, **a análise inicial é gratuita** — fale connosco pelo WhatsApp.
+
+## Fontes e Referências Oficiais
+
+- [Lei Orgânica n.º 1/2026 — texto na íntegra (DRE)](https://dre.pt/dre/legislacao-consolidada/lei-organica/2004-34527875)
+- [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt/nacionalidade-portuguesa)
+- [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
+`,
+  },
+];
+
+// Exportar todos os posts combinados
+export const allBlogPosts = [...blogPosts, ...blogPostsExtra];

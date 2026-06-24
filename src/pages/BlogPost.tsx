@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
-import { blogPosts } from '@/data/blogPosts';
+import { allBlogPosts as blogPosts } from '@/data/blogPosts';
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
