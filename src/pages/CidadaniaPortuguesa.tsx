@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { ArrowRight, Users, Heart, Building, FileText, Clock, CheckCircle, MessageCircle } from 'lucide-react';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 const services = [
   {
@@ -116,7 +117,7 @@ export default function CidadaniaPortuguesa() {
             <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
               Assessoria especializada em todas as modalidades de aquisição da nacionalidade portuguesa. Atualizado com a Lei Orgânica 1/2026.
             </p>
-            <Button variant="gold" size="xl" onClick={() => window.open('https://wa.me/5521986669063?text=Olá! Gostaria de informações sobre cidadania portuguesa.', '_blank', 'noopener,noreferrer')}>
+            <Button variant="gold" size="xl" onClick={() => window.open('${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Gostaria de informações sobre cidadania portuguesa.")}', '_blank', 'noopener,noreferrer')}>
               <MessageCircle className="w-5 h-5" />
               Falar com Especialista
             </Button>
@@ -167,7 +168,7 @@ export default function CidadaniaPortuguesa() {
                       </div>
                       <h3 className="font-display text-2xl font-bold text-foreground mb-4">Interessado nesta modalidade?</h3>
                       <p className="text-muted-foreground mb-6">Análise gratuita do seu caso, sem compromisso.</p>
-                      <Button variant="gold" size="lg" onClick={() => window.open(`https://wa.me/5521986669063?text=Olá! Gostaria de informações sobre ${service.title}.`, '_blank', 'noopener,noreferrer')}>
+                      <Button variant="gold" size="lg" onClick={() => window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Gostaria de informações sobre ${service.title}.")}`, '_blank', 'noopener,noreferrer')}>
                         Solicitar Análise
                         <ArrowRight className="w-5 h-5" />
                       </Button>
@@ -184,7 +185,7 @@ export default function CidadaniaPortuguesa() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center max-w-3xl mx-auto">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-foreground mb-6">Pronto para iniciar sua jornada?</h2>
             <p className="text-primary-foreground/80 text-lg mb-8">Nossa equipe está pronta para analisar seu caso e orientá-lo em cada etapa do processo.</p>
-            <Button variant="gold" size="xl" onClick={() => window.open('https://wa.me/5521986669063', '_blank', 'noopener,noreferrer')}>
+            <Button variant="gold" size="xl" onClick={() => window.open(SITE_CONFIG.whatsapp.url, '_blank', 'noopener,noreferrer')}>
               <MessageCircle className="w-5 h-5" />
               Falar no WhatsApp
             </Button>
