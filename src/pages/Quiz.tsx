@@ -980,20 +980,25 @@ export default function Quiz() {
                               <input type="hidden" name="resultado" value={currentKey} />
                               <input
                                 type="text" name="name" placeholder="Seu nome" required
+                                maxLength={100}
                                 value={leadData.name}
-                                onChange={e => setLeadData(p => ({ ...p, name: e.target.value }))}
+                                onChange={e => setLeadData(p => ({ ...p, name: e.target.value.replace(/<[^>]*>/g, '') }))}
                                 className="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder:text-white/50 focus:outline-none focus:border-white/50 text-sm"
                               />
                               <input
                                 type="email" name="email" placeholder="Seu e-mail" required
+                                maxLength={200}
+                                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                                 value={leadData.email}
-                                onChange={e => setLeadData(p => ({ ...p, email: e.target.value }))}
+                                onChange={e => setLeadData(p => ({ ...p, email: e.target.value.replace(/<[^>]*>/g, '') }))}
                                 className="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder:text-white/50 focus:outline-none focus:border-white/50 text-sm"
                               />
                               <input
                                 type="tel" name="whatsapp" placeholder="WhatsApp (opcional)"
+                                maxLength={20}
+                                pattern="[\d\s\+\-\(\)]{8,20}"
                                 value={leadData.whatsapp}
-                                onChange={e => setLeadData(p => ({ ...p, whatsapp: e.target.value }))}
+                                onChange={e => setLeadData(p => ({ ...p, whatsapp: e.target.value.replace(/[^0-9+\s\-()]/g, '') }))}
                                 className="w-full px-4 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder:text-white/50 focus:outline-none focus:border-white/50 text-sm"
                               />
                               <Button type="submit" className="w-full bg-white text-primary hover:bg-white/90 font-bold">
