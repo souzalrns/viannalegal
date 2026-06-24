@@ -6,6 +6,7 @@ import { Footer } from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
 import { 
+import { SITE_CONFIG, waUrl } from '@/config/site';
   ArrowRight, 
   Search, 
   FileText, 
@@ -71,7 +72,7 @@ export default function BuscaDocumentos() {
             <Button 
               variant="gold" 
               size="xl"
-              onClick={() => window.open('https://wa.me/5521986669063?text=Olá! Preciso de ajuda com busca de documentos.', '_blank', 'noopener,noreferrer')}
+              onClick={() => window.open('${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Preciso de ajuda com busca de documentos.")}', '_blank', 'noopener,noreferrer')}
             >
               <MessageCircle className="w-5 h-5" />
               Consultar Especialista
@@ -364,7 +365,7 @@ export default function BuscaDocumentos() {
             <Button 
               variant="gold" 
               size="xl"
-              onClick={() => window.open('https://wa.me/5521986669063?text=Olá! Preciso de ajuda com busca de documentos para cidadania portuguesa.', '_blank', 'noopener,noreferrer')}
+              onClick={() => window.open('${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Preciso de ajuda com busca de documentos para cidadania portuguesa.")}', '_blank', 'noopener,noreferrer')}
             >
               <MessageCircle className="w-5 h-5" />
               Falar com Especialista em Paleografia
