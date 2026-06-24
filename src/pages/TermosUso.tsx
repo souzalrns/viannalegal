@@ -144,7 +144,7 @@ export default function TermosUso() {
                     10. Contato
                   </h2>
                   <p>
-                    Para dúvidas sobre estes termos, entre em contato pelo WhatsApp: +351 913 134 260.
+                    Para dúvidas sobre estes termos, entre em contato pelo WhatsApp: +55 21 98666-9063.
                   </p>
                 </div>
               </motion.div>
