@@ -7,6 +7,7 @@ import { ArrowLeft, ArrowRight, Calendar, Clock, User, Share2 } from 'lucide-rea
 import { motion } from 'framer-motion';
 import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPosts as blogPosts } from '@/data/allBlogPosts';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -293,7 +294,7 @@ export default function BlogPost() {
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button variant="gold" size="lg" asChild>
-                    <a href="https://wa.me/5521986669063" target="_blank" rel="noopener noreferrer">
+                    <a href=SITE_CONFIG.whatsapp.url target="_blank" rel="noopener noreferrer">
                       Agendar análise gratuita
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </a>
