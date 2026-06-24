@@ -107,20 +107,22 @@ const NODES: Record<string, Node> = {
     kind: 'comparison',
     category: 'Neto(a) de português(a)',
     text: 'Você tem duas opções. Qual se encaixa melhor na sua situação?',
-    subtitle: 'Ambas são válidas — a diferença está no tempo, custo e segurança jurídica.',
+    subtitle: 'Ambas são válidas — a diferença está no tempo total, custo e segurança jurídica.',
     options: [
       {
         icon: '🛡️',
         label: 'Opção 1 — Recomendada',
         tag: 'Mais segura',
         pros: [
-          'Juridicamente mais sólida',
-          'Processo do pai/mãe como neto(a) fortalece a sua cadeia',
-          'Seu passaporte como filho(a) sai mais rápido depois',
+          '⏱️ Prazo total: ~6 a 8 anos (2 processos em sequência)',
+          'Pai/mãe pede como neto(a): 41–46 meses no IRN',
+          'Você pede como filho(a): apenas 2–4 meses depois',
+          'Juridicamente mais sólida — cadeia completa',
+          'Segundo passaporte (o seu) sai muito mais rápido',
         ],
         cons: [
-          'Dois processos em sequência — demora mais',
-          'Custo um pouco maior no total',
+          'Custo maior no total (dois processos)',
+          'Precisa esperar o processo do pai/mãe concluir',
         ],
         next: 'result_neto_via_pai',
       },
@@ -129,8 +131,9 @@ const NODES: Record<string, Node> = {
         label: 'Opção 2 — Direta',
         tag: 'Mais rápida',
         pros: [
-          'Um único processo — sem esperar o pai/mãe',
-          'Pode começar imediatamente',
+          '⏱️ Prazo total: ~41 a 46 meses (1 processo direto)',
+          'Um único processo — começa imediatamente',
+          'Custo menor no total',
         ],
         cons: [
           'Precisa provar vínculo com Portugal (viagens, idioma, cultura)',
