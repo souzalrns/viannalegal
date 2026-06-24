@@ -113,7 +113,7 @@ export function Hero() {
               className="shadow-gold text-base font-bold"
               onClick={() =>
                 window.open(
-                  'https://wa.me/351913134260?text=Olá! Vim pelo site e gostaria de uma análise gratuita sobre cidadania portuguesa.',
+                  'https://wa.me/5521986669063?text=Olá! Vim pelo site e gostaria de uma análise gratuita sobre cidadania portuguesa.',
                   '_blank',
                   'noopener,noreferrer'
 )
