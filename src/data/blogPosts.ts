@@ -1,3 +1,4 @@
+import { FileText, TrendingUp, Scale, Heart, Home, Users, Search, Clock, MapPin } from 'lucide-react';
 // ViannaLegal — Dados dos artigos do blog
 // Separado do componente Blog.tsx para permitir lazy loading eficiente
 import { ArrowRight, Calendar, Clock, User, TrendingUp, FileText, Scale, Heart, Home, Users, Search, MapPin } from 'lucide-react';
@@ -2239,4 +2240,5 @@ Se tem dúvidas sobre como esta mudança afecta o seu caso, **a análise inicial
 ];
 
 // Exportar todos os posts combinados
-export const allBlogPosts = [...blogPosts, ...blogPostsExtra];
+import { blogPostsDocx } from './blogPostsDocx';
+export const allBlogPosts = [...blogPosts, ...blogPostsExtra, ...blogPostsDocx];
