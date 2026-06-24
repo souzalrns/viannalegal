@@ -71,7 +71,7 @@ export default function BuscaDocumentos() {
             <Button 
               variant="gold" 
               size="xl"
-              onClick={() => window.open('https://wa.me/351913134260?text=Olá! Preciso de ajuda com busca de documentos.', '_blank', 'noopener,noreferrer')}
+              onClick={() => window.open('https://wa.me/5521986669063?text=Olá! Preciso de ajuda com busca de documentos.', '_blank', 'noopener,noreferrer')}
             >
               <MessageCircle className="w-5 h-5" />
               Consultar Especialista
@@ -364,7 +364,7 @@ export default function BuscaDocumentos() {
             <Button 
               variant="gold" 
               size="xl"
-              onClick={() => window.open('https://wa.me/351913134260?text=Olá! Preciso de ajuda com busca de documentos para cidadania portuguesa.', '_blank', 'noopener,noreferrer')}
+              onClick={() => window.open('https://wa.me/5521986669063?text=Olá! Preciso de ajuda com busca de documentos para cidadania portuguesa.', '_blank', 'noopener,noreferrer')}
             >
               <MessageCircle className="w-5 h-5" />
               Falar com Especialista em Paleografia
