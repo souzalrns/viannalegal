@@ -1,11 +1,9 @@
-// ViannaLegal — Todos os artigos do blog (ficheiro consolidado)
-// GERADO AUTOMATICAMENTE — não editar manualmente
-// Total: 82 artigos únicos
-// Última actualização: Junho 2026 — Lei Orgânica 1/2026
+// ViannaLegal — Todos os artigos do blog
+// 82 artigos únicos · Lei Orgânica 1/2026 · Prazos IRN abr/mai 2026
+// IMPORTANTE: array único — não dividido em sub-arrays
 
 import { FileText, TrendingUp, Scale, Heart, Home, Users, Search, Clock, MapPin } from 'lucide-react';
 
-// ── Tipos ─────────────────────────────────────────────────────
 export interface BlogPost {
   id: number;
   slug: string;
@@ -22,11 +20,8 @@ export interface BlogPost {
   content: string;
 }
 
-// ══════════════════════════════════════════════════════════════
-//  ARTIGOS ORIGINAIS (blogPosts — 11 artigos)
-// ══════════════════════════════════════════════════════════════
-const blogPostsOriginais: BlogPost[] = [
-  {
+export const allBlogPosts: BlogPost[] = [
+{
     id: 1,
     slug: 'veto-tribunal-constitucional-dezembro-2025',
     title: 'Veto do Tribunal Constitucional Dez/2025: Residência em 5 Anos Mantida',
@@ -1907,13 +1902,8 @@ Se seu processo entrou em diligência, foi indeferido ou você simplesmente quer
 - [IRN — Instituto dos Registos e Notariado](https://irn.justica.gov.pt)
 `,
   },
-];
 
-// ══════════════════════════════════════════════════════════════
-//  ARTIGOS LEI 1/2026 (blogPostsExtra — 4 artigos)
-// ══════════════════════════════════════════════════════════════
-const blogPostsLei2026: BlogPost[] = [
-  {
+{
     id: 12,
     slug: 'bisnetos-via1-vs-via2-cidadania-portuguesa',
     title: 'Bisnetos e a Cidadania Portuguesa: Via 1 (Atribuição) vs Via 2 (Aquisição) — Qual a Diferença?',
@@ -2260,12 +2250,7 @@ Se tem dúvidas sobre como esta mudança afecta o seu caso, **a análise inicial
 - [AIMA — Agência para a Integração, Migrações e Asilo](https://aima.gov.pt)
 `,
   },
-];
 
-// ══════════════════════════════════════════════════════════════
-//  GUIAS PILARES (blogPostsPart1 — 4 artigos)
-// ══════════════════════════════════════════════════════════════
-const blogPostsGuias: BlogPost[] = [
 {
     id: 1,
     slug: 'nacionalidade-portuguesa-para-netos-guia-completo-2026',
@@ -2649,13 +2634,8 @@ Sim, por transferência internacional.
 **A análise inicial tem custo?**
 Não. Nossa análise inicial é gratuita e sem compromisso.`,
   },
-];
 
-// ══════════════════════════════════════════════════════════════
-//  ARTIGOS BLOG COMPLETO (blogPostsDocx — 63 artigos)
-// ══════════════════════════════════════════════════════════════
-const blogPostsCompleto: BlogPost[] = [
-  {
+{
     id: 20,
     slug: 'passaporte-portugues-como-solicitar-apos-aprovacao-da-cidadania',
     title: 'Passaporte Português: Como Solicitar Após Aprovação da Cidadania',
@@ -6618,22 +6598,5 @@ A análise do caso — entender se você tem direito, por qual via, e o que est�
 - [Lei Orgânica n.º 1/2026 — Diário da República](https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996)
 - [Portal de Acompanhamento de Processos](https://nacionalidade.justica.gov.pt)
 `,
-  },
+  }
 ];
-
-// ══════════════════════════════════════════════════════════════
-//  EXPORT ÚNICO — TODOS OS 82 ARTIGOS
-// ══════════════════════════════════════════════════════════════
-export const allBlogPosts: BlogPost[] = [
-  ...blogPostsOriginais,   // 11 artigos
-  ...blogPostsLei2026,     //  4 artigos
-  ...blogPostsGuias,       //  4 artigos
-  ...blogPostsCompleto,    // 63 artigos
-  // TOTAL: 82 artigos
-];
-
-// Aliases de compatibilidade (para não quebrar imports existentes)
-export const blogPosts       = blogPostsOriginais;
-export const blogPostsExtra  = blogPostsLei2026;
-export const blogPostsPart1  = blogPostsGuias;
-export const blogPostsDocx   = blogPostsCompleto;
