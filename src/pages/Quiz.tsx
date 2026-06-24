@@ -112,12 +112,12 @@ const NODES: Record<string, Node> = {
       {
         icon: '🛡️',
         label: 'Opção 1 — Recomendada',
-        tag: 'Mais segura',
+        tag: 'Mais segura e mais inteligente',
         pros: [
-          '⏱️ Prazo total: ~6 a 8 anos (2 processos em sequência)',
-          'Pai/mãe pede como neto(a): 42–48 meses no IRN',
-          'Você pede como filho(a): apenas 3–5 meses depois',
-          'Juridicamente mais sólida — cadeia completa',
+          '⏱️ Prazo total: ~46 a 54 meses no total (tempo semelhante à Opção 2!)',
+          '1.º processo: pai/mãe pede como neto(a) → 42–48 meses',
+          '2.º processo: você pede como filho(a) → apenas 4–6 meses depois',
+          'Nenhum dos dois precisa comprovar vínculo com Portugal',
           'Segundo passaporte (o seu) sai muito mais rápido',
         ],
         cons: [
@@ -129,14 +129,14 @@ const NODES: Record<string, Node> = {
       {
         icon: '⚡',
         label: 'Opção 2 — Direta',
-        tag: 'Mais rápida',
+        tag: 'Um processo só',
         pros: [
           '⏱️ Prazo total: ~42 a 48 meses (1 processo direto)',
           'Um único processo — começa imediatamente',
           'Custo menor no total',
         ],
         cons: [
-          'Precisa provar vínculo com Portugal (viagens, idioma, cultura)',
+          'Precisa comprovar vínculo com Portugal (viagens, cultura, idioma)',
           'Ligeiramente mais arriscado se a documentação for fraca',
         ],
         next: 'q_neto_avo_vivo',
