@@ -73,7 +73,7 @@ const faqGroups: FaqGroup[] = [
       {
         question: 'Quanto tempo demora o processo de cidadania portuguesa?',
         answer:
-          'Prazos oficiais IRN (abr/mai 2026): Filhos menores: 2 a 4 meses | Filhos maiores (inscrição): 50 a 56 meses | Filhos maiores (transcrição): 2 a 3 meses | Netos menores: 2 a 4 meses | Netos maiores: 41 a 46 meses | Casamento/UF: 50 a 54 meses | Naturalização CPLP (7 anos): 27 a 30 meses | Bisnetos: 28 a 36 meses. Prazos são estimativas baseadas em dados das conservatórias (abr/mai 2026) com margem ±5% — podem variar. O IRN tem em curso concurso para 485 novos Oficiais de Registos.',
+          'Prazos oficiais IRN (abr/mai 2026): Filhos menores: 2 a 4 meses | Filhos maiores (inscrição): 50 a 56 meses | Transcrição de casamento (registo em PT): 2 a 3 meses | Netos menores: 2 a 4 meses | Netos maiores: 41 a 46 meses | Casamento/UF: 50 a 54 meses | Naturalização CPLP (7 anos): 27 a 30 meses | Bisnetos: 28 a 36 meses. Prazos são estimativas baseadas em dados das conservatórias (abr/mai 2026) com margem ±5% — podem variar. O IRN tem em curso concurso para 485 novos Oficiais de Registos.',
       },
       {
         question: 'Quais documentos são necessários para cidadania portuguesa?',
