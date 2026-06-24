@@ -4,6 +4,7 @@ import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { Link, useLocation } from 'react-router-dom';
+import { SITE_CONFIG, waUrl } from '@/config/site';
 
 interface NavItem {
   label: string;
@@ -22,7 +23,7 @@ const navItems: NavItem[] = [
 ];
 
 const WHATSAPP_CTA_URL =
-  'https://wa.me/5521986669063?text=Olá! Gostaria de uma análise gratuita sobre cidadania portuguesa.';
+  '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Gostaria de uma análise gratuita sobre cidadania portuguesa.")}';
 
 export function Header() {
   const [isScrolled, setIsScrolled]       = useState(false);
@@ -79,7 +80,7 @@ export function Header() {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-5">
             <a
-              href="https://wa.me/5521986669063"
+              href=SITE_CONFIG.whatsapp.url
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
@@ -141,7 +142,7 @@ export function Header() {
                   Análise Gratuita
                 </Button>
                 <a
-                  href="https://wa.me/5521986669063"
+                  href=SITE_CONFIG.whatsapp.url
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 text-sm text-muted-foreground hover:text-gold transition-colors py-1"
