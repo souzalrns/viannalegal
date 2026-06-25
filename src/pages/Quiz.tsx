@@ -968,7 +968,7 @@ export default function Quiz() {
                               Quero análise gratuita por e-mail
                             </Button>
                             <a
-                              href="https://wa.me/5521986669063?text=Olá%20Kathia%2C%20fiz%20o%20quiz%20no%20site%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso."
+                              href="https://wa.me/351913134260?text=Olá%20Kathia%2C%20fiz%20o%20quiz%20no%20site%20e%20gostaria%20de%20uma%20análise%20do%20meu%20caso."
                               target="_blank"
                               rel="noopener noreferrer"
                               className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold transition-colors text-sm"
