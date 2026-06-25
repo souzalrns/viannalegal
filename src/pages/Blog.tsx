@@ -7,7 +7,7 @@ import { ArrowRight, Calendar, Clock, User, TrendingUp, FileText, Scale, Heart, 
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-import { allBlogPosts as blogPosts } from '@/data/allBlogPosts';
+import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
 import { SITE_CONFIG, waUrl } from '@/config/site';
 
 
