@@ -121,8 +121,7 @@ export function Benefits() {
           <Button
             variant="gold"
             size="lg"
-            onClick={() =>
-              window.open(
+            onClick={() => window.open(
                 '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Quero entender quais vantagens da cidadania portuguesa se aplicam ao meu caso.")}',
                 '_blank',
                 'noopener,noreferrer'
