@@ -2,7 +2,7 @@
 // Usado na listagem /blog — título, excerpt, categoria, data
 // ~58KB em vez de 379KB — 6x mais leve
 
-import { FileText, TrendingUp, Scale, Heart, Home, Users, Search, Clock, MapPin } from 'lucide-react';
+import { FileText, TrendingUp, Scale, Heart, Home, Users, Search, Clock, MapPin, LucideIcon } from 'lucide-react';
 
 export interface BlogPostMeta {
   id: number;
@@ -13,7 +13,7 @@ export interface BlogPostMeta {
   readTime: string;
   author: string;
   category: string;
-  icon?: unknown;
+  icon?: LucideIcon;
   featured?: boolean;
   metaDescription?: string;
   relatedSlugs?: string[];

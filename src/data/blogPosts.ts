@@ -1,4 +1,4 @@
-import { FileText, TrendingUp, Scale, Heart, Home, Users, Search, Clock, MapPin } from 'lucide-react';
+
 // ViannaLegal — Dados dos artigos do blog
 // Separado do componente Blog.tsx para permitir lazy loading eficiente
 import { ArrowRight, Calendar, Clock, User, TrendingUp, FileText, Scale, Heart, Home, Users, Search, MapPin } from 'lucide-react';

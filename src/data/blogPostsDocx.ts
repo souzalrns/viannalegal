@@ -1,3 +1,4 @@
+import { FileText, TrendingUp, Scale, Heart, Home, Users, Search, Clock, MapPin } from 'lucide-react';
 
 // ── ARTIGOS RECUPERADOS DO DOCX (63 artigos) ─────────────────────────────────
 export const blogPostsDocx = [

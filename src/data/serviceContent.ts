@@ -21,6 +21,7 @@ export interface ServiceContent {
   heroTitle: string;
   heroSubtitle: string;
   heroDuration: string;
+  heroDurationNote?: string;
   intro: string[];
   whoQualifiesIntro: string;
   whoQualifies: string[];

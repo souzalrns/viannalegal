@@ -122,6 +122,9 @@ export default function ServicePage() {
               <Clock className="w-4 h-4" />
               Prazo médio: {content.heroDuration}
             </div>
+            {content.heroDurationNote && (
+              <p className="text-sm text-muted-foreground">{content.heroDurationNote}</p>
+            )}
             <Button
               variant="gold"
               size="lg"

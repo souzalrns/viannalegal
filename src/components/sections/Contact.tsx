@@ -5,8 +5,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { useAnalytics } from '@/hooks/useAnalytics';
-import { SITE_CONFIG, waUrl } from '@/config/site';
-import { useAnalytics } from '@/hooks/useAnalytics';
+import { SITE_CONFIG } from '@/config/site';
 
 const contactInfo = [
   { icon: Phone,  label: 'WhatsApp',   value: SITE_CONFIG.whatsapp.display, href: SITE_CONFIG.whatsapp.url },
@@ -61,7 +60,7 @@ export function Contact() {
         trackPixelLead({ content_name: 'Formulário Contato' });
         // Também abre WhatsApp como backup imediato
         const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
-        window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("${encodeURIComponent(msg")})}`, '_blank', 'noopener,noreferrer');
+        window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
       } else {
         throw new Error('Falha no envio');
       }
@@ -70,7 +69,7 @@ export function Contact() {
       setFormState('error');
       trackEvent('form_error', { section: 'contact' });
       const msg = `Olá! Meu nome é ${formData.name}.\n\nTelefone: ${formData.phone}\nE-mail: ${formData.email}\n\nMensagem: ${formData.message}`;
-      window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("${encodeURIComponent(msg")})}`, '_blank', 'noopener,noreferrer');
+      window.open(`${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener,noreferrer');
       toast({
         title: 'Redirecionando para WhatsApp',
         description: 'Sua mensagem foi enviada via WhatsApp como alternativa.',
@@ -108,7 +107,7 @@ export function Contact() {
     </div>
   );
 
-  const { trackWhatsAppClick } = useAnalytics();
+  
 
   return (
     <section id="contato" className="section-padding">

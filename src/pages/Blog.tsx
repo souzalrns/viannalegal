@@ -7,7 +7,7 @@ import { ArrowRight, Calendar, Clock, User, TrendingUp, FileText, Scale, Heart, 
 import { Link } from 'react-router-dom';
 
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
-import { SITE_CONFIG, waUrl } from '@/config/site';
+import { SITE_CONFIG } from '@/config/site';
 
 
 export default function Blog() {

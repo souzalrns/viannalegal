@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Header } from '@/components/layout/Header';
@@ -8,23 +9,24 @@ import { QuizBanner } from '@/components/ui/QuizBanner';
 import { allBlogPostsMeta as blogPosts } from '@/data/allBlogPostsMeta';
 import { SchemaArticle, SchemaBreadcrumb, SchemaFAQ } from '@/components/seo/SchemaMarkup';
 import { allBlogPostsContent } from '@/data/allBlogPostsContent';
-import { SITE_CONFIG, waUrl } from '@/config/site';
+import { useAnalytics } from '@/hooks/useAnalytics';
+import { SITE_CONFIG } from '@/config/site';
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
-  const { trackArticleView, trackWhatsAppClick } = useAnalytics();
+  const { trackArticleView } = useAnalytics();
+
+  const postMeta = blogPosts.find(p => p.slug === slug);
+  const post = postMeta
+    ? { ...postMeta, content: allBlogPostsContent[slug ?? ''] || '' }
+    : undefined;
 
   // Rastrear visualização do artigo
   useEffect(() => {
     if (post) trackArticleView(post.slug, post.category);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [post?.slug]);
-  
-  const postMeta = blogPosts.find(p => p.slug === slug);
-  const post = postMeta
-    ? { ...postMeta, content: allBlogPostsContent[slug ?? ''] || '' }
-    : undefined;
-  
+
   if (!post) {
     return <Navigate to="/blog" replace />;
   }

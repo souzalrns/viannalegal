@@ -8,6 +8,7 @@ import {
   TrendingUp,
   Globe2,
   ArrowRight,
+  Home,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { SITE_CONFIG, waUrl } from '@/config/site';
