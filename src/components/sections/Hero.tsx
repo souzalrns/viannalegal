@@ -119,14 +119,15 @@ export function Hero() {
               variant="gold"
               size="xl"
               className="shadow-gold text-base font-bold"
-              onClick={() =>
+              onClick={() => {
                 trackWhatsAppClick('hero');
+                window.open(
                   window.open(
                   waUrl(SITE_CONFIG.whatsappMessages.default),
                   '_blank',
                   'noopener,noreferrer'
-                )
-              }
+                );
+              }}
             >
               Quero deixar essa herança
               <ArrowRight className="w-5 h-5" aria-hidden="true" />
