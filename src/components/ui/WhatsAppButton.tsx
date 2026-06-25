@@ -5,7 +5,7 @@ import { SITE_CONFIG, waUrl } from '@/config/site';
 export function WhatsAppButton() {
   return (
     <motion.a
-      href=SITE_CONFIG.whatsapp.url
+      href={SITE_CONFIG.whatsapp.url}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-xl transition-shadow group"
