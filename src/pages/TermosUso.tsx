@@ -144,7 +144,7 @@ export default function TermosUso() {
                     10. Contato
                   </h2>
                   <p>
-                    Para dúvidas sobre estes termos, entre em contato pelo WhatsApp: ' + SITE_CONFIG.whatsapp.display + '.
+                    Para dúvidas sobre estes termos, entre em contato pelo WhatsApp: ` ${SITE_CONFIG.whatsapp.display}.`
                   </p>
                 </div>
               </div>

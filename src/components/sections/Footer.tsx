@@ -110,7 +110,7 @@ export function Footer() {
               className="flex items-center gap-2 text-sm text-primary-foreground/60 hover:text-gold transition-colors mt-2"
             >
               <Phone className="w-4 h-4 text-gold flex-shrink-0" />
-              ' + SITE_CONFIG.whatsapp.display + '
+              {SITE_CONFIG.whatsapp.display}
             </a>
           </div>
 

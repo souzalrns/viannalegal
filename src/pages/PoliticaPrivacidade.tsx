@@ -113,7 +113,7 @@ export default function PoliticaPrivacidade() {
                   </h2>
                   <p>
                     Para exercer seus direitos ou esclarecer dúvidas sobre esta política, 
-                    entre em contato conosco através do WhatsApp: ' + SITE_CONFIG.whatsapp.display + '.
+                    entre em contato conosco através do WhatsApp: ` ${SITE_CONFIG.whatsapp.display}.`
                   </p>
 
                   <h2 className="font-display text-2xl font-semibold text-foreground mt-8 mb-4">
