@@ -16,43 +16,43 @@ import { SITE_CONFIG, waUrl } from '@/config/site';
 const benefits = [
   {
     icon: Plane,
-    title: 'Acesso a 190+ Países',
-    description: 'Passaporte português oferece livre acesso a mais de 190 países sem visto.',
+    title: 'O mundo inteiro sem pedir permissão',
+    description: 'EUA, Canadá, Japão, toda a Europa — 190+ países sem visto, sem entrevista, sem ansiedade de recusa.',
   },
   {
     icon: Globe2,
-    title: 'União Europeia',
-    description: 'Liberdade de circular, residir e trabalhar em qualquer país da UE.',
+    title: 'Morar e trabalhar em 27 países',
+    description: 'Qualquer país da União Europeia — hoje, daqui a 10 anos, ou quando os seus filhos decidirem ir.',
   },
   {
     icon: Briefcase,
-    title: 'Mercado de Trabalho Europeu',
-    description: 'Acesso direto, sem autorizações especiais ou vistos de trabalho.',
+    title: 'Carreira sem fronteiras',
+    description: 'Emprego em Lisboa, Berlim, Amsterdã ou Paris — sem visto de trabalho, sem burocracia, sem espera.',
   },
   {
     icon: GraduationCap,
-    title: 'Educação de Qualidade',
-    description: 'Universidades europeias reconhecidas, com taxas até 10x menores.',
+    title: 'Universidade europeia pelo preço brasileiro',
+    description: 'Seus filhos estudam nas melhores universidades da Europa pagando as mesmas taxas que os europeus — até 10x menos.',
   },
   {
     icon: Heart,
-    title: 'Saúde Pública',
-    description: 'Sistema de saúde eficiente e abrangente em toda a Europa.',
+    title: 'Saúde pública de verdade',
+    description: 'Acesso ao sistema nacional de saúde em Portugal e ao Cartão Europeu de Saúde em qualquer país da UE.',
   },
   {
     icon: Shield,
-    title: 'Segurança e Estabilidade',
-    description: 'Portugal está entre os países mais seguros do mundo.',
+    title: 'Estabilidade para a família',
+    description: 'Portugal é um dos países mais seguros do mundo. Uma segunda base para a família — por se nunca precisar, mas por ter.',
   },
   {
     icon: TrendingUp,
-    title: 'Incentivos a Investimento',
-    description: 'Condições fiscais atrativas e acesso facilitado ao mercado europeu.',
+    title: 'Negócios no mercado europeu',
+    description: 'Abrir empresa, investir e operar em qualquer país da UE — sem restrições, no maior mercado único do mundo.',
   },
   {
-    icon: Building,
-    title: 'Financiamento Imobiliário',
-    description: 'Crédito habitacional em Portugal com custos até 3x menores que no Brasil.',
+    icon: Home,
+    title: 'Casa própria em Portugal com juros europeus',
+    description: 'Crédito habitacional em Portugal com taxas até 3x menores que no Brasil. Para quem sonha em morar lá.',
   },
 ];
 
@@ -77,7 +77,7 @@ export function Benefits() {
             Vantagens
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-            Por que ter a <span className="text-gold">Cidadania Portuguesa?</span>
+            O que essa herança <span className="text-gold">abre para a sua família?</span>
           </h2>
           <p className="text-primary-foreground/80 text-lg">
             Um único documento abre 27 países de oportunidades — para você e para as próximas
@@ -116,7 +116,7 @@ export function Benefits() {
           className="text-center"
         >
           <p className="text-primary-foreground/80 mb-5">
-            Quer saber quais dessas vantagens já valem para o seu caso?
+            Cada uma dessas portas passa para os seus filhos — e para os filhos deles.
           </p>
           <Button
             variant="gold"
@@ -129,7 +129,7 @@ export function Benefits() {
 )
             }
           >
-            Falar com um especialista
+            Quero abrir essas portas para a minha família
             <ArrowRight className="w-5 h-5" />
           </Button>
         </motion.div>
