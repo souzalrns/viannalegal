@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { useAnalytics } from '@/hooks/useAnalytics';
 import { SITE_CONFIG, waUrl } from '@/config/site';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 const contactInfo = [
   { icon: Phone,  label: 'WhatsApp',   value: SITE_CONFIG.whatsapp.display, href: SITE_CONFIG.whatsapp.url },
@@ -107,6 +108,8 @@ export function Contact() {
       )}
     </div>
   );
+
+  const { trackWhatsAppClick } = useAnalytics();
 
   return (
     <section id="contato" className="section-padding">
