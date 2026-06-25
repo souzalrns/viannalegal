@@ -5,8 +5,8 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/sections/Footer';
 import { Button } from '@/components/ui/button';
 import { useScrollToHash } from '@/hooks/useScrollToHash';
-import { 
 import { SITE_CONFIG, waUrl } from '@/config/site';
+import {
   ArrowRight, 
   Search, 
   FileText, 
