@@ -207,8 +207,7 @@ export function Services() {
           <Button
             variant="gold"
             size="lg"
-            onClick={() =>
-              window.open(
+            onClick={() => window.open(
                 '${SITE_CONFIG.whatsapp.url}?text=${encodeURIComponent("Olá! Quero saber qual o melhor caminho de cidadania para o meu caso.")}',
                 '_blank',
                 'noopener,noreferrer'
