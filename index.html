@@ -4,111 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-    <!-- Preconnect para fontes (antes do preload) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Fontes optimizadas: subset=latin, display=swap, pesos mínimos -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,500&family=Inter:wght@400;500;600&subset=latin&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <!-- Title: máx 60 caracteres -->
     <title>ViannaLegal — Cidadania Portuguesa para Brasileiros</title>
-
-    <!-- Description: máx 155 caracteres -->
     <meta name="description" content="Assessoria especializada em cidadania portuguesa. Mais de 2.000 famílias atendidas. Processo 100% online, sem sair do Brasil." />
-
     <meta name="author" content="ViannaLegal" />
-    <meta name="keywords" content="cidadania portuguesa, dupla cidadania, passaporte europeu, assessoria cidadania, nacionalidade portuguesa" />
 
-    <!-- Open Graph -->
     <meta property="og:title" content="ViannaLegal — Cidadania Portuguesa para Brasileiros" />
     <meta property="og:description" content="Mais de 2.000 famílias já têm passaporte europeu. Assessoria completa, 100% online." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://viannalegal.com.br/" />
     <meta property="og:image" content="https://viannalegal.com.br/og-image.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="ViannaLegal — Assessoria em Cidadania Portuguesa" />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:site_name" content="ViannaLegal" />
 
-    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@viannalegal" />
     <meta name="twitter:title" content="ViannaLegal — Cidadania Portuguesa para Brasileiros" />
-    <meta name="twitter:description" content="Mais de 2.000 famílias já têm passaporte europeu. Assessoria completa, 100% online." />
+    <meta name="twitter:description" content="Mais de 2.000 famílias já têm passaporte europeu." />
     <meta name="twitter:image" content="https://viannalegal.com.br/og-image.jpg" />
-    <meta name="twitter:image:alt" content="ViannaLegal — Assessoria em Cidadania Portuguesa" />
 
-    <!-- Canonical -->
     <link rel="canonical" href="https://viannalegal.com.br/" />
-
-    <!-- Theme color mobile -->
     <meta name="theme-color" content="#0f2d23" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-    <!-- Favicon + PWA -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.json" />
-
-    <!-- ═══ ANALYTICS ════════════════════════════════════════════════════════
-         TODO após deploy:
-         1. Substituir G-PLACEHOLDER  pelo Measurement ID real do GA4
-         2. Substituir CLARITY-PLACEHOLDER pelo Project ID real do Clarity
-         3. Descomentar Meta Pixel e Google Ads quando tiver campanhas activas
-    ═══════════════════════════════════════════════════════════════════════ -->
-
-    <!-- Google Analytics 4 + Google Ads (um único script GTM) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-PLACEHOLDER', {
-        anonymize_ip: true,
-        cookie_flags: 'SameSite=None;Secure',
-        send_page_view: !navigator.doNotTrack
-      });
-      // Descomentar quando tiver conta Google Ads activa:
-      // gtag('config', 'AW-PLACEHOLDER');
-    </script>
-
-    <!-- Microsoft Clarity (heatmaps + session recordings — gratuito) -->
-    <script>
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "CLARITY-PLACEHOLDER");
-    </script>
-
-    <!-- Meta Pixel — descomentar APENAS quando tiver campanha Meta Ads activa
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', 'META-PIXEL-PLACEHOLDER');
-      fbq('track', 'PageView');
-    </script>
-    <noscript>
-      <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=META-PIXEL-PLACEHOLDER&ev=PageView&noscript=1"
-        alt="" />
-    </noscript>
-    -->
-
   </head>
-
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
