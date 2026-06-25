@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import heroImage from '@/assets/hero-lisbon.jpg';
 import heroImageWebp from '@/assets/hero-lisbon.webp';
 import { SITE_CONFIG, waUrl } from '@/config/site';
+import { useAnalytics } from '@/hooks/useAnalytics';
 
 const trustMarkers = [
   '+2.000 famílias atendidas',
@@ -13,6 +14,8 @@ const trustMarkers = [
 ];
 
 export function Hero() {
+  const { trackWhatsAppClick } = useAnalytics();
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image */}
@@ -117,7 +120,8 @@ export function Hero() {
               size="xl"
               className="shadow-gold text-base font-bold"
               onClick={() =>
-                window.open(
+                trackWhatsAppClick('hero');
+                  window.open(
                   waUrl(SITE_CONFIG.whatsappMessages.default),
                   '_blank',
                   'noopener,noreferrer'
