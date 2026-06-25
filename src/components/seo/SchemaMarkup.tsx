@@ -20,7 +20,7 @@ const organizationSchema = {
   "logo": "https://viannalegal.com.br/og-image.jpg",
   "image": "https://viannalegal.com.br/og-image.jpg",
   "description": "Assessoria especializada em cidadania portuguesa para brasileiros. Filhos, netos e bisnetos de portugueses. Processo 100% online.",
-  "telephone": "+55-21-98666-9063",
+  "telephone": "+351-913-134-260",
   "priceRange": "$$",
   "areaServed": { "@type": "Country", "name": "Brazil" },
   "availableLanguage": "Portuguese",
@@ -28,7 +28,7 @@ const organizationSchema = {
     "Cidadania Portuguesa", "Nacionalidade Portuguesa",
     "Lei Orgânica 1/2026", "Dupla Cidadania Brasil Portugal", "Passaporte Europeu"
   ],
-  "sameAs": ["https://wa.me/5521986669063"]
+  "sameAs": ["https://wa.me/351913134260"]
 };
 
 // ── WebSite Schema ──────────────────────────────────────────────

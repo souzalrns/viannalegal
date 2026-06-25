@@ -154,7 +154,7 @@ const faqGroups: FaqGroup[] = [
       {
         question: 'Vocês oferecem consultoria gratuita?',
         answer:
-          'Sim! Oferecemos uma análise inicial gratuita via WhatsApp onde avaliamos: sua elegibilidade para cidadania portuguesa, documentos que você já possui, estimativa de prazo e custos, e próximos passos recomendados. Agende sua consulta gratuita pelo WhatsApp +55 21 98666-9063.',
+          'Sim! Oferecemos uma análise inicial gratuita via WhatsApp onde avaliamos: sua elegibilidade para cidadania portuguesa, documentos que você já possui, estimativa de prazo e custos, e próximos passos recomendados. Agende sua consulta gratuita pelo WhatsApp +351 913 134 260.',
       },
     ],
   },

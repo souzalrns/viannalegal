@@ -6,9 +6,9 @@
 export const SITE_CONFIG = {
   // Contacto
   whatsapp: {
-    number: '5521986669063',          // Número sem + ou espaços (formato wa.me)
-    display: '+55 21 98666-9063',     // Formato para exibição no site
-    url: 'https://wa.me/5521986669063',
+    number: '351913134260',          // Número sem + ou espaços (formato wa.me)
+    display: '+351 913 134 260',     // Formato para exibição no site
+    url: 'https://wa.me/351913134260',
   },
 
   // Mensagens padrão WhatsApp (pré-preenchidas)
