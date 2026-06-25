@@ -24,8 +24,8 @@ const credentials = [
   },
   {
     icon: FileCheck,
-    title: '20+ anos · 2.000+ processos',
-    description: 'Nacionalidade portuguesa, escrituras, registos, análise de contratos e representação de investidores estrangeiros em Portugal.',
+    title: '10 anos em Portugal · 2.000+ processos',
+    description: 'Especialista em nacionalidade portuguesa, escrituras, registos, análise de contratos e representação de investidores estrangeiros em Portugal.',
   },
 ];
 
@@ -62,7 +62,7 @@ export function About() {
               <div className="absolute bottom-6 left-6 text-white">
                 <p className="font-display text-2xl font-bold">Kathia Vianna</p>
                 <p className="text-sm text-white/80">Advogada · Ordem dos Advogados de Portugal</p>
-                <p className="text-xs text-white/60 mt-1">Porto, Portugal · desde 2016</p>
+                <p className="text-xs text-white/60 mt-1">Porto, Portugal · 10 anos de actuação presencial</p>
               </div>
             </div>
 
